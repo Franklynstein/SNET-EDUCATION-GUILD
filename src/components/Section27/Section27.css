@@ -1,0 +1,97 @@
+/* Page 27 */
+
+.items-27 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.item-27-right {
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+  margin-left: 2rem;
+  font-family: "Kodchasan";
+  font-weight: 600;
+}
+
+.item-27-right-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  background-image: url("../assets/img/groupies.gif");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item-27-right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.item-27-left {
+  max-width: 585px;
+  min-width: 440px;
+  margin-right: 2rem;
+  color: rgb(247, 245, 248);
+  position: relative;
+  z-index: 2;
+}
+
+.item-27-left-content-child h2 {
+  position: relative;
+  animation-name: item-27-content;
+  animation-duration: 1s;
+  z-index: 1;
+}
+
+.item-27-left-content-child p {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(247, 245, 248);
+  font-kerning: none;
+  text-decoration: none;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.item-27-left-content-child ul {
+  list-style: none;
+  padding: 20px;
+}
+
+@keyframes item-27-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes item-27-content-down {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.item-27-left-content-child h2 {
+  transition: transform 1s ease-out; /* For smooth sliding effect */
+}
+.item-27-left-content-child h2.slide-in {
+  transform: translateY(0); /* Move to the visible position */
+  animation-name: item-27-content;
+  animation-duration: 1s;
+}
+
+.item-27-left-content-child h2.slide-out {
+  transform: translateY(200%); /* Slide out to the left */
+  animation: item-27-content-down 1s forwards;
+}

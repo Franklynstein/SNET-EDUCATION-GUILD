@@ -1,0 +1,119 @@
+/* Page 10 */
+
+.items-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.item-10-left {
+  width: 300px;
+  height: 450px;
+  min-width: 300px;
+  margin-right: 2rem;
+  font-family: "Kodchasan";
+  font-weight: 600;
+}
+
+.item-10-left-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes item-10-image {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes item-10-image-down {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.item-10-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.item-10-right {
+  max-width: 600px;
+  min-width: 440px;
+  /* height: 400px; */
+  margin-left: 2rem;
+  color: rgb(247, 245, 248);
+  position: relative;
+  z-index: 2;
+}
+
+.item-10-right-content-child h2 {
+  position: relative;
+  z-index: 1;
+}
+
+.item-10-right-content-child p {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(247, 245, 248);
+  font-kerning: none;
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
+@keyframes item-10-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes item-10-content-down {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.item-10-right-content-child h2 {
+  transition: transform 1s ease-out; /* For smooth sliding effect */
+}
+.item-10-right-content-child h2.slide-in {
+  transform: translateY(0); /* Move to the visible position */
+  animation-name: item-10-content;
+  animation-duration: 1s;
+}
+
+.item-10-right-content-child h2.slide-out {
+  transform: translateY(200%); /* Slide out to the left */
+  animation: item-10-content-down 1s forwards;
+}
+
+.item-10-left-image {
+  transition: transform 1s ease-out; /* For smooth sliding effect */
+  transform: translateX(100%); /* Initially off-screen to the left */
+}
+
+.item-10-left-image.slide-in {
+  transform: translateX(0); /* Move to the visible position */
+  animation: item-10-image 1s forwards;
+}
+
+.item-10-left-image.slide-out {
+  transform: translateX(-80%); /* Slide out to the left */
+  animation: item-10-image-down 1s forwards;
+}
