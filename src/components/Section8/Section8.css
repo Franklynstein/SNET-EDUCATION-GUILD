@@ -1,0 +1,101 @@
+/* Page 8 */
+
+.items-8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.item-8-left {
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+  margin-right: 2rem;
+  font-family: "Kodchasan";
+  font-weight: 600;
+}
+
+.item-8-left-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  animation-name: item-8-image;
+  animation-duration: 1s;
+  z-index: 1;
+}
+
+@keyframes item-8-image {
+  0% {
+    left: -800px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.item-8-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+}
+
+.item-8-right {
+  max-width: 600px;
+  min-width: 440px;
+  /* height: 400px; */
+  margin-left: 2rem;
+  color: rgb(247, 245, 248);
+  position: relative;
+  z-index: 2;
+}
+
+.item-8-right-content-child h2 {
+  position: relative;
+  animation-name: item-8-content;
+  animation-duration: 3s;
+  z-index: 1;
+}
+
+.item-8-right-content-child p {
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(247, 245, 248);
+  font-kerning: none;
+  text-decoration: none;
+  padding: 1rem 0;
+}
+
+@keyframes item-8-content {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes item-8-content-down {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.item-8-right-content-child h2 {
+  transition: transform 1s ease-out; /* For smooth sliding effect */
+}
+.item-8-right-content-child h2.slide-in {
+  transform: translateY(0); /* Move to the visible position */
+  animation-name: item-8-content;
+  animation-duration: 1s;
+}
+
+.item-8-right-content-child h2.slide-out {
+  transform: translateY(200%); /* Slide out to the left */
+  animation: item-8-content-down 1s forwards;
+}

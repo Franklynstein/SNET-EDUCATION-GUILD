@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  pointer-events: none;
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/img/width_1402.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
