@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section13.css";
 import swirlGif from "../assets/img/swirl.gif";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section13() {
   const [isVisible13, setIsVisible13] = useState(false); // Track visibility
 
@@ -90,6 +92,18 @@ function Section13() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/jam-galaxy">JAM GALAXY</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/jam-galaxy">JAM GALAXY</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

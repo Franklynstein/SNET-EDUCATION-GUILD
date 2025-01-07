@@ -1,9 +1,11 @@
 import "../main.css";
 import "./Section6.css";
-import width_756 from "../assets/img/width-756.jpg";
+// import width_756 from "../assets/img/width-756.jpg";
+import width_200_5 from "../assets/img/width-200_5.jpg";
 import width_200_3 from "../assets/img/width-200_3.png";
 import width_200 from "../assets/img/width-200.png";
 import t_2 from "../assets/img/t_2.jpg";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section6() {
   return (
@@ -15,10 +17,13 @@ function Section6() {
             <div className="item-6-right-child-1 item-6-radius">
               <div className="item-6-group">
                 <div className="item-6-group-image">
-                  <img src={width_756} alt="What is Rejuve.AI" />
+                  <img src={width_200_5} alt="What is Rejuve.AI" />
                 </div>
                 <div className="item-6-group-content">
-                  <p>What is Rejuve.AI</p>
+                  <p>What is Rejuve.BIO</p>
+                  <p className="read-more">
+                    <a href="/what-is-rejuve-bio">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -29,6 +34,9 @@ function Section6() {
                 </div>
                 <div className="item-6-group-content">
                   <p>Tokenomics</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-rejuve-bio">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -41,6 +49,9 @@ function Section6() {
                 </div>
                 <div className="item-6-group-content">
                   <p>Who Discovered?</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-rejuve-bio">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -51,11 +62,20 @@ function Section6() {
                 </div>
                 <div className="item-6-group-content">
                   <p>Misc</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-rejuve-bio">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-6">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/rejuve-ai">REJUVE.AI</a>
+        </p>
       </div>
     </section>
   );

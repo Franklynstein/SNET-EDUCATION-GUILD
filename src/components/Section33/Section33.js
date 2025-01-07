@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section33.css";
 import width224 from "../assets/img/width-224.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section33() {
   const [isVisible33, setIsVisible33] = useState(false); // Track visibility
 
@@ -86,6 +88,18 @@ function Section33() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/singularityNET">SINGULARITYNET</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/singularityNET">SINGULARITYNET</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

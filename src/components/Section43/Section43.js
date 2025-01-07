@@ -2,10 +2,12 @@ import "../main.css";
 import "./Section43.css";
 import tImage from "../assets/img/t.jpg";
 import width200 from "../assets/img/width-200.png";
-import width2002 from "../assets/img/width-200_2.png";
+// import width2002 from "../assets/img/width-200_2.png";
 import width2003 from "../assets/img/width-200_3.png";
 import width_174 from "../assets/img/width-174.png";
 import width_200_5 from "../assets/img/width-200_5.png";
+
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section43() {
   return (
@@ -21,6 +23,9 @@ function Section43() {
                 </div>
                 <div className="item-43-group-content">
                   <p>What is Ambassadors?</p>
+                  <p className="read-more">
+                    <a href="/what-is-ambassadors">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -34,6 +39,9 @@ function Section43() {
                     HOW does it <br />
                     operate?
                   </p>
+                  <p className="read-more">
+                    <a href="/how-does-ambassadors">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -46,6 +54,9 @@ function Section43() {
                 </div>
                 <div className="item-43-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-ambassadors">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -56,6 +67,9 @@ function Section43() {
                 </div>
                 <div className="item-43-group-content">
                   <p>How To Join</p>
+                  <p className="read-more">
+                    <a href="/what-is-ambassadors">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -68,9 +82,18 @@ function Section43() {
             </div>
             <div className="item-43-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/ambassadors-tokenomics">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/mindplex">MINDPLEX</a>
+        </p>
       </div>
     </section>
   );

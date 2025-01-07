@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section27.css";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section27() {
   const [isVisible27, setIsVisible27] = useState(false); // Track visibility
 
@@ -73,6 +75,18 @@ function Section27() {
             {/* <img src="../assets/img/shield.gif" alt="" /> */}
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/zarqa">ZARQA</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/singularityDAO">SINGULARITYDAO</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

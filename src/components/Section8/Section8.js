@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section8.css";
 import width_800 from "../assets/img/width-800.png";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section8() {
   const [isVisible8, setIsVisible8] = useState(false); // Track visibility
@@ -84,6 +85,18 @@ function Section8() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/rejuve-bio">REJUVE.BIO</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/nunet">NUNET</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

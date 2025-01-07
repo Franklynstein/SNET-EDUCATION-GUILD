@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section23.css";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section23() {
   const [isVisible23, setIsVisible23] = useState(false); // Track visibility
 
@@ -95,6 +97,18 @@ function Section23() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/sophia-verse">SOPHIA VERSE</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/zarqa">ZARQA</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

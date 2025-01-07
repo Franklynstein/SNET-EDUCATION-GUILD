@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section14.css";
 import width800Image from "../assets/img/width-800_4.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section14() {
   const [isVisible14, setIsVisible14] = useState(false); // Track visibility
 
@@ -85,6 +87,18 @@ function Section14() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/jam-galaxy">JAM GALAXY</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/hyperon">OPENCOG HYPERON</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

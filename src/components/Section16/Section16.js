@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section16.css";
 import width_768 from "../assets/img/width-768.png"; // Example for importing another image
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section16() {
   const [isVisible16, setIsVisible16] = useState(false); // Track visibility
 
@@ -100,6 +102,18 @@ function Section16() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/hyperon">OPENCOG HYPERON</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/hyperon">OPENCOG HYPERON</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

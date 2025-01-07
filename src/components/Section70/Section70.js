@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section70.css";
 import pointerGif from "../assets/img/pointer.gif";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section70() {
   const [isVisible70, setIsVisible70] = useState(false); // Track visibility
 
@@ -112,6 +114,22 @@ function Section70() {
             <img src={pointerGif} alt="" />
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/programs-join">
+            SingularityNet Ambassador Program - Getting Started To Join
+          </a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/programs-workshop">
+            SingularityNet Ambassador Program - Workgroups / guilds
+          </a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import "../main.css";
 import "./Section11.css";
 import width_800_3 from "../assets/img/width-800_3.png";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section11() {
   const [isVisible11, setIsVisible11] = useState(false); // Track visibility
@@ -158,6 +159,18 @@ function Section11() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/nunet">NUNET</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/jam-galaxy">JAM GALAXY</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

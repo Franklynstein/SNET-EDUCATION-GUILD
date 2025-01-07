@@ -4,6 +4,8 @@ import "./Section69.css";
 import arrowGif from "../assets/img/arrow.gif";
 import joinUs from "../assets/img/join.gif";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section69() {
   const [isVisible69, setIsVisible69] = useState(false); // Track visibility
 
@@ -103,6 +105,22 @@ function Section69() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/programs-discord">
+            SingularityNet Ambassador Program - Discord
+          </a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/programs-getting-started">
+            SingularityNet Ambassador Program - Getting Started To Join
+          </a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section26.css";
 import settings from "../assets/img/settings-removebg-preview.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section26() {
   const [isVisible26, setIsVisible26] = useState(false); // Track visibility
 
@@ -94,6 +96,18 @@ function Section26() {
             <img src={settings} alt="" />
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/zarqa">ZARQA</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/zarqa">ZARQA</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

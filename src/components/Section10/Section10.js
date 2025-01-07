@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section10.css";
 import width_800_2l from "../assets/img/width-800_2l.png";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section10() {
   const [isVisible10, setIsVisible10] = useState(false); // Track visibility
@@ -104,6 +105,18 @@ function Section10() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/nunet">NUNET</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/nunet">NUNET</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );
