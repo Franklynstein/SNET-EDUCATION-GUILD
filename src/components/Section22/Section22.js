@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section22.css";
 import width_770 from "../assets/img/width-770.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section22() {
   const [isVisible22, setIsVisible22] = useState(false); // Track visibility
 
@@ -105,6 +107,18 @@ function Section22() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/sophia-verse">SOPHIA VERSE</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/sophia-verse">SOPHIA VERSE</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section17.css";
 import width_768_2 from "../assets/img/width-768_2.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section17() {
   const [isVisible17, setIsVisible17] = useState(false); // Track visibility
 
@@ -88,6 +90,18 @@ function Section17() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/hyperon">OPENCOG HYPERON</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/cogito">COGITO</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

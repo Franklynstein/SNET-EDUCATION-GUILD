@@ -6,6 +6,8 @@ import width_200 from "../assets/img/width-200.png";
 import width_200_2_2 from "../assets/img/width-200_2.png";
 import width_200_3 from "../assets/img/width-200_3.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section21() {
   return (
     <section id="21" className="main-section main-section-flex">
@@ -20,6 +22,9 @@ function Section21() {
                 </div>
                 <div className="item-21-group-content">
                   <p>What is Sophia Verse?</p>
+                  <p className="read-more">
+                    <a href="/what-is-sophia">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -29,9 +34,9 @@ function Section21() {
                   <img src={tImage} alt="How does it operate?" />
                 </div>
                 <div className="item-21-group-content">
-                  <p>
-                    HOW does it <br />
-                    operate?
+                  <p>Why Sophia Verse</p>
+                  <p className="read-more">
+                    <a href="/when-was-sophia">Read more {">"}</a>
                   </p>
                 </div>
               </div>
@@ -45,6 +50,9 @@ function Section21() {
                 </div>
                 <div className="item-21-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/what-is-sophia">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,6 +66,9 @@ function Section21() {
                     When Sophia Verse <br />
                     Announced?
                   </p>
+                  <p className="read-more">
+                    <a href="/what-is-sophia">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -70,9 +81,18 @@ function Section21() {
             </div>
             <div className="item-21-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/when-was-sophia">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/cogito">COGITO</a>
+        </p>
       </div>
     </section>
   );

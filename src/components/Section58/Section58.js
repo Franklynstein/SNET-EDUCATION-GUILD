@@ -6,6 +6,8 @@ import width2002 from "../assets/img/width-200_2.png";
 import width2003 from "../assets/img/width-200_3.png";
 import width_200_7 from "../assets/img/width-200_7.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section58() {
   return (
     <section id="58" className="main-section main-section-flex">
@@ -20,6 +22,9 @@ function Section58() {
                 </div>
                 <div className="item-58-group-content">
                   <p>What is HyperCycle?</p>
+                  <p className="read-more">
+                    <a href="/what-is-hypercycle">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -33,6 +38,9 @@ function Section58() {
                     HOW does it <br />
                     operate?
                   </p>
+                  <p className="read-more">
+                    <a href="/how-does-hypercycle">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -45,6 +53,9 @@ function Section58() {
                 </div>
                 <div className="item-58-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-hypercycle">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,6 +69,9 @@ function Section58() {
                     When HyperCycle <br />
                     Announced?
                   </p>
+                  <p className="read-more">
+                    <a href="/what-is-hypercycle">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -70,9 +84,18 @@ function Section58() {
             </div>
             <div className="item-58-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/hypercycle-tokenomics">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/twin-protocol">TWIN PROTOCOL</a>
+        </p>
       </div>
     </section>
   );

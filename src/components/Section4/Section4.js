@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section4.css";
 import width_369 from "../assets/img/width-369.png";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section4() {
   const [isVisible4, setIsVisible4] = useState(false); // Track visibility
@@ -100,6 +101,18 @@ function Section4() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-4">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/rejuve-ai">REJUVE.AI</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-4">
+        <p>
+          <a href="/rejuve-ai">REJUVE.AI</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

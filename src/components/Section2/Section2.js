@@ -4,6 +4,7 @@ import chopper from "../assets/img/chopper.gif";
 import iconEight from "../assets/img/icons8-next-page-50 (1).png";
 import width699 from "../assets/img/width-699.png";
 import rocket from "../assets/img/rocket.gif";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section2() {
   return (
@@ -91,6 +92,18 @@ function Section2() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-2">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/">HOME</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-2">
+        <p>
+          <a href="/rejuve-ai">REJUVE AI</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section64.css";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section64() {
   const [isVisible64, setIsVisible64] = useState(false); // Track visibility
 
@@ -87,6 +89,18 @@ function Section64() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/awakening-health">AWAKENING HEALTH</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/awakening-health">AWAKENING HEALTH</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

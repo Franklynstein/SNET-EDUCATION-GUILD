@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section42.css";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section42() {
   const [isVisible42, setIsVisible42] = useState(false); // Track visibility
 
@@ -103,6 +105,18 @@ function Section42() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/mindplex">MINDPLEX</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/ambassadors">AMBASSADORS</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

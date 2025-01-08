@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section30.css";
 import settings from "../assets/img/settings-removebg-preview.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section30() {
   const [isVisible30, setIsVisible30] = useState(false); // Track visibility
 
@@ -79,6 +81,18 @@ function Section30() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/singularityDAO">SINGULARITYDAO</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/singularityDAO">SINGULARITYDAO</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

@@ -1,0 +1,137 @@
+.page-header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  /* position: fixed; */
+  /* width: 95vw; */
+}
+
+.page-header nav {
+  color: rgb(247, 245, 248);
+  font-family: "Roboto", serif;
+  display: inline-block;
+}
+
+/* .page-header ul {
+  color: rgb(247, 245, 248);
+  font-family: "Roboto", serif;
+  display: inline-block;
+} */
+
+/* Dropdown Menu */
+
+#hamburger {
+  display: flex;
+}
+
+#dropdown {
+  display: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: rgb(237, 12, 93);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  z-index: 2;
+}
+
+.dropdown-menu.open {
+  transform: scaleY(1); /* Expand vertically */
+  opacity: 1; /* Fade in */
+}
+
+.dropdown-menu.closed {
+  transform: scaleY(0); /* Collapse vertically */
+  opacity: 0; /* Fade out */
+}
+
+.dropdown-menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu ul li {
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-menu ul li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu ul li a {
+  text-decoration: none;
+  color: rgb(247, 245, 248);
+}
+
+.dropdown-menu ul li a:hover {
+  color: #007bff;
+}
+
+.page-header li {
+  color: rgb(247, 245, 248);
+  font-family: "Roboto", serif;
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.page-header a {
+  text-decoration: none;
+}
+
+.main-section-header {
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/width_1402.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* position: relative; */
+}
+
+@media (min-width: 769px) {
+  .page-header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* position: fixed; */
+    /* width: 95vw; */
+  }
+
+  .page-header nav {
+    color: rgb(247, 245, 248);
+    font-family: "Roboto", serif;
+    display: inline-block;
+  }
+
+  .page-header ul {
+    color: rgb(247, 245, 248);
+    font-family: "Roboto", serif;
+    display: inline-block;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  #dropdown {
+    display: flex;
+  }
+}

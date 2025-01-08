@@ -6,6 +6,8 @@ import width_200 from "../assets/img/width-200.png"; // Import the image from th
 import width_200_2 from "../assets/img/width-200_2.png"; // Import the image from the new location
 import width_200_3 from "../assets/img/width-200_3.png"; // Import the image from the new location
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section18() {
   return (
     <section id="18" className="main-section main-section-flex">
@@ -21,6 +23,9 @@ function Section18() {
                 </div>
                 <div className="item-18-group-content">
                   <p>What is Cogito?</p>
+                  <p className="read-more">
+                    <a href="/what-is-cogito">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -32,6 +37,9 @@ function Section18() {
                 </div>
                 <div className="item-18-group-content">
                   <p>How does it operate?</p>
+                  <p className="read-more">
+                    <a href="/when-was-cogito">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -45,6 +53,9 @@ function Section18() {
                 </div>
                 <div className="item-18-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/what-is-cogito">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -56,6 +67,9 @@ function Section18() {
                 </div>
                 <div className="item-18-group-content">
                   <p>When Cogito Announced?</p>
+                  <p className="read-more">
+                    <a href="/when-was-cogito">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -69,9 +83,18 @@ function Section18() {
             </div>
             <div className="item-18-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/when-was-cogito">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/hyperon">OPENCOG HYPERON</a>
+        </p>
       </div>
     </section>
   );

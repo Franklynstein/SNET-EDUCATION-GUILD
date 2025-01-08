@@ -5,6 +5,8 @@ import dialogBox from "../assets/img/dialog.png";
 import arrowGif from "../assets/img/arrow.gif";
 import welcomePng from "../assets/img/welcome.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section68() {
   const [isVisible68, setIsVisible68] = useState(false); // Track visibility
 
@@ -127,6 +129,20 @@ function Section68() {
             <img width={120} height={90} src={welcomePng} alt="" />
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/awakening-health">AWAKENING HEALTH</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/programs-join">
+            SingularityNet Ambassador Program - How to join program
+          </a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

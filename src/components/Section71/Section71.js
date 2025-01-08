@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../main.css";
 import "./Section71.css";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section71() {
   const [isVisible71, setIsVisible71] = useState(false); // Track visibility
 
@@ -133,6 +135,22 @@ function Section71() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/programs-getting-started">
+            SingularityNet Ambassador Program - WorkGroups / Guilds
+          </a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/programs-workgroups-2">
+            SingularityNet Ambassador Program - Workgroups / guilds
+          </a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

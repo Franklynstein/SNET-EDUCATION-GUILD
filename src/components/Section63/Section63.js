@@ -6,6 +6,8 @@ import width2002 from "../assets/img/width-200_2.png";
 import width2003 from "../assets/img/width-200_3.png";
 import width_200_8 from "../assets/img/width-200_8.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section63() {
   return (
     <section id="63" className="main-section main-section-flex">
@@ -20,6 +22,9 @@ function Section63() {
                 </div>
                 <div className="item-63-group-content">
                   <p>What is Awakening Health?</p>
+                  <p className="read-more">
+                    <a href="/what-is-awakening-health">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -33,6 +38,9 @@ function Section63() {
                     HOW does it <br />
                     operate?
                   </p>
+                  <p className="read-more">
+                    <a href="/how-does-awakening-health">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -45,6 +53,11 @@ function Section63() {
                 </div>
                 <div className="item-63-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-awakening-health">
+                      Read more {">"}
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,6 +71,9 @@ function Section63() {
                     When Awakening Health <br />
                     Announced?
                   </p>
+                  <p className="read-more">
+                    <a href="/what-is-awakening-health">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -70,9 +86,18 @@ function Section63() {
             </div>
             <div className="item-63-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/awakening-health-tokenomics">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/hypercycle">HYPERCYCLE</a>
+        </p>
       </div>
     </section>
   );

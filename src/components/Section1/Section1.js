@@ -1,18 +1,10 @@
 import "../main.css";
 import "./Section1.css";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section1() {
   return (
     <section className="main-section">
-      <header className="page-header">
-        <nav>SNET education guild</nav>
-        <ul>
-          <li>Home</li>
-          <li>Project</li>
-          <li>Ecosystem</li>
-          <li>Product</li>
-        </ul>
-      </header>
       <div className="container">
         <h1>SingularityNET</h1>
         <h2>Education Project</h2>
@@ -22,6 +14,12 @@ function Section1() {
         <div className="item-right item-width">Red</div>
         <div className="item-left item-width">Red</div>
         <div className="item-top-left item-width">Red</div>
+      </div>
+      <div id="none-navigator" className="next-div-1">
+        <p>
+          <a href="/features">FEATURES</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
       {/* <img src="assets/img/width_1402.jpg" alt="" /> */}
     </section>

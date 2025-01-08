@@ -5,6 +5,8 @@ import t from "../assets/img/t.jpg";
 import width200 from "../assets/img/width-200.png";
 import width200_2 from "../assets/img/width-200_2.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section24() {
   return (
     <section id="24" className="main-section main-section-flex">
@@ -19,6 +21,9 @@ function Section24() {
                 </div>
                 <div className="item-24-group-content">
                   <p>What is Zarqa?</p>
+                  <p className="read-more">
+                    <a href="/what-is-zarqa">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -32,6 +37,9 @@ function Section24() {
                     HOW does it <br />
                     operate?
                   </p>
+                  <p className="read-more">
+                    <a href="/how-does-zarqa">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -44,6 +52,9 @@ function Section24() {
                 </div>
                 <div className="item-24-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/what-is-zarqa">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -57,6 +68,9 @@ function Section24() {
                     When Zarqa <br />
                     Announced?
                   </p>
+                  <p className="read-more">
+                    <a href="/what-is-zarqa">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -69,9 +83,18 @@ function Section24() {
             </div>
             <div className="item-24-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/zarqa-tokenomics">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/sophia-verse">SOPHIA VERSE</a>
+        </p>
       </div>
     </section>
   );

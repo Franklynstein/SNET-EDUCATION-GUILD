@@ -5,6 +5,7 @@ import t from "../assets/img/t.jpg";
 import width200_2 from "../assets/img/width-200_2.png";
 import width200 from "../assets/img/width-200.png";
 import width200_3 from "../assets/img/width-200_3.png";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section3() {
   return (
@@ -20,6 +21,9 @@ function Section3() {
                 </div>
                 <div className="item-3-group-content">
                   <p>What is Rejuve.AI</p>
+                  <p className="read-more">
+                    <a href="/what-is-rejuve-ai">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -33,6 +37,9 @@ function Section3() {
                     HOW does it <br />
                     operate?
                   </p>
+                  <p className="read-more">
+                    <a href="/what-is-rejuve-ai">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -45,6 +52,9 @@ function Section3() {
                 </div>
                 <div className="item-3-group-content">
                   <p>Who Discovered it?</p>
+                  <p className="read-more">
+                    <a href="/what-is-rejuve-ai">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -58,6 +68,9 @@ function Section3() {
                     When Rejuve.AI <br />
                     Announced?
                   </p>
+                  <p className="read-more">
+                    <a href="/when-was-rejuve-ai">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -70,9 +83,18 @@ function Section3() {
             </div>
             <div className="item-3-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/when-was-rejuve-ai">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-3">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/features">FEATURES</a>
+        </p>
       </div>
     </section>
   );

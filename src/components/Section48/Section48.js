@@ -1,11 +1,13 @@
 import "../main.css";
 import "./Section48.css";
-import width2004 from "../assets/img/width-200_4.jpg";
+// import width2004 from "../assets/img/width-200_4.jpg";
 import tImage from "../assets/img/t.jpg";
 import width200 from "../assets/img/width-200.png";
 import width2002 from "../assets/img/width-200_2.png";
 import width2003 from "../assets/img/width-200_3.png";
 import width165 from "../assets/img/width-165.png";
+
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section48() {
   return (
@@ -21,6 +23,9 @@ function Section48() {
                 </div>
                 <div className="item-48-group-content">
                   <p>What is TRUEAGI?</p>
+                  <p className="read-more">
+                    <a href="/what-is-trueagi">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -34,6 +39,9 @@ function Section48() {
                     HOW does it <br />
                     operate?
                   </p>
+                  <p className="read-more">
+                    <a href="/how-does-trueagi">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -46,6 +54,9 @@ function Section48() {
                 </div>
                 <div className="item-48-group-content">
                   <p>Who is Discovered?</p>
+                  <p className="read-more">
+                    <a href="/who-discovered-trueagi">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -59,6 +70,9 @@ function Section48() {
                     When TRUEAGI <br />
                     Announced?
                   </p>
+                  <p className="read-more">
+                    <a href="/what-is-trueagi">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -71,9 +85,18 @@ function Section48() {
             </div>
             <div className="item-48-group-content">
               <p>Tokenomics</p>
+              <p className="read-more">
+                <a href="/trueagi-tokenomics">Read more {">"}</a>
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/ambassadors">AMBASSADORS</a>
+        </p>
       </div>
     </section>
   );

@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section55.css";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section55() {
   const [isVisible55, setIsVisible55] = useState(false); // Track visibility
 
@@ -91,6 +93,18 @@ function Section55() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/twin-protocol">TWIN PROTOCOL</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/twin-protocol">TWIN PROTOCOL</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

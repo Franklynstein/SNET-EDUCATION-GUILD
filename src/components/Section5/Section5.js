@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "../main.css";
 import "./Section5.css";
 import width_369_2 from "../assets/img/width-369_2.png";
+import navigatorImage from "../assets/img/navigator-image.png";
 
 function Section5() {
   const [isVisible5, setIsVisible5] = useState(false); // Track visibility
@@ -96,6 +97,18 @@ function Section5() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-5">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/rejuve-ai">REJUVE.AI</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-5">
+        <p>
+          <a href="/rejuve-bio">REJUVE.BIO</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

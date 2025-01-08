@@ -3,6 +3,8 @@ import "../main.css";
 import "./Section19.css";
 import width_800_2l from "../assets/img/width-800_2l.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section19() {
   const [isVisible19, setIsVisible19] = useState(false); // Track visibility
 
@@ -95,6 +97,18 @@ function Section19() {
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/cogito">COGITO</a>
+        </p>
+      </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/cogito">COGITO</a>
+        </p>
+        <img src={navigatorImage} alt="" />
       </div>
     </section>
   );

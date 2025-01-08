@@ -4,6 +4,8 @@ import width800HImage from "../assets/img/width-800-h.jpg";
 import width200Image from "../assets/img/width-200.png";
 import width200_3Image from "../assets/img/width-200_3.png";
 
+import navigatorImage from "../assets/img/navigator-image.png";
+
 function Section15() {
   return (
     <section id="15" className="main-section main-section-flex">
@@ -18,6 +20,9 @@ function Section15() {
                 </div>
                 <div className="item-15-group-content">
                   <p>What is OpenCog Hyperon?</p>
+                  <p className="read-more">
+                    <a href="/what-is-hyperon">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -28,6 +33,9 @@ function Section15() {
                 </div>
                 <div className="item-15-group-content">
                   <p>When was OpenCog Hyperon discovered?</p>
+                  <p className="read-more">
+                    <a href="/when-was-hyperon">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -43,6 +51,9 @@ function Section15() {
                 </div>
                 <div className="item-15-group-content">
                   <p>Who is discovered?</p>
+                  <p className="read-more">
+                    <a href="/what-is-hyperon">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -53,11 +64,20 @@ function Section15() {
                 </div>
                 <div className="item-15-group-content">
                   <p>Tokenomics</p>
+                  <p className="read-more">
+                    <a href="/when-was-hyperon">Read more {">"}</a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div id="none-navigator" className="previous-div-7">
+        <img src={navigatorImage} alt="" />
+        <p>
+          <a href="/jam-galaxy">JAM GALAXY</a>
+        </p>
       </div>
     </section>
   );
