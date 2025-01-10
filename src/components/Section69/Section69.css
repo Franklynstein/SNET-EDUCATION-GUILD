@@ -49,12 +49,6 @@
   left: 220px;
 }
 
-.join-us .arrow-gif {
-  position: absolute;
-  top: 5rem;
-  right: 5rem;
-}
-
 .item-69-right {
   color: rgb(269, 245, 248);
   position: relative;
@@ -108,7 +102,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
+    padding: 2rem 6rem;
   }
 
   .item-69-left {
@@ -161,7 +155,7 @@
 
   .join-us .arrow-gif {
     position: absolute;
-    top: 5rem;
+    top: 3.5rem;
     right: 5rem;
   }
 
@@ -190,6 +184,7 @@
     text-decoration: none;
     padding: 1rem 0;
     text-align: justify;
+    font-size: 14px;
   }
 
   .item-69-right-content-child ul {

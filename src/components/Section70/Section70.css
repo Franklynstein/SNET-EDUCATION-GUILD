@@ -18,7 +18,7 @@
   width: 300px;
   height: 300px;
   min-width: 300px;
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-family: "Kodchasan";
   font-weight: 600;
   position: relative;
@@ -115,11 +115,11 @@
   flex-direction: column;
 }
 
-.below-ads {
+.below-ads-70 {
   display: flex;
 }
 
-.below-ads p {
+/* .below-ads-70 p {
   color: rgb(247, 245, 248);
   position: absolute;
   bottom: 12rem;
@@ -127,17 +127,17 @@
   width: 250px;
   text-transform: uppercase;
   text-align: justify;
-}
+} */
 
-.arrow-gif-container {
+/* .arrow-gif-container-70 {
   width: 150px;
   height: 75px;
   position: absolute;
   bottom: 11rem;
   left: 22rem;
-}
+} */
 
-.arrow-gif-container img {
+.arrow-gif-container-70 img {
   width: 100%;
   height: 100%;
 }
@@ -153,7 +153,7 @@
   height: 100%;
 }
 
-.welcome-style {
+.welcome-style-70 {
   position: absolute;
   bottom: 14rem;
   right: 16rem;
@@ -239,7 +239,7 @@
     text-decoration: none;
     padding: 1rem 0;
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .item-70-left-content-child ul {
@@ -322,11 +322,11 @@
     flex-direction: row;
   }
 
-  .below-ads {
+  .below-ads-70 {
     display: flex;
   }
 
-  .below-ads p {
+  .below-ads-70 p {
     color: rgb(247, 245, 248);
     position: absolute;
     bottom: 12rem;
@@ -336,7 +336,7 @@
     text-align: justify;
   }
 
-  .arrow-gif-container {
+  .arrow-gif-container-70 {
     width: 150px;
     height: 75px;
     position: absolute;
@@ -344,7 +344,7 @@
     left: 22rem;
   }
 
-  .arrow-gif-container img {
+  .arrow-gif-container-70 img {
     width: 100%;
     height: 100%;
   }
@@ -360,7 +360,7 @@
     height: 100%;
   }
 
-  .welcome-style {
+  .welcome-style-70 {
     position: absolute;
     bottom: 14rem;
     right: 16rem;

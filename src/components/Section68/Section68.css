@@ -103,35 +103,6 @@
   }
 }
 
-.item-68-left-content-child h2 {
-  transition: transform 1s ease-out; /* For smooth sliding effect */
-}
-.item-68-left-content-child h2.slide-in {
-  transform: translateX(0); /* Move to the visible position */
-  animation-name: item-68-content;
-  animation-duration: 1s;
-}
-
-.item-68-left-content-child h2.slide-out {
-  transform: translateX(-10%); /* Slide out to the left */
-  animation: item-68-content-down 1s forwards;
-}
-
-.item-68-right-image {
-  transition: transform 1s ease-out; /* For smooth sliding effect */
-  transform: translateX(100%); /* Initially off-screen to the right */
-}
-
-.item-68-right-image.slide-in {
-  transform: translateX(0); /* Move to the visible position */
-  animation: item-68-image 1s forwards;
-}
-
-.item-68-right-image.slide-out {
-  transform: translateX(20%); /* Slide out to the right */
-  animation: item-68-image-down 1s forwards;
-}
-
 .item-68-row-group {
   display: flex;
 }
@@ -155,8 +126,8 @@
 
 .youtube-video-link68 {
   display: flex;
-  width: 360px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
 }
 
 .youtube-video-link68 iframe {
@@ -182,7 +153,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6rem;
+    padding: 0 6rem;
     flex-direction: column;
     position: relative;
   }
@@ -191,7 +162,7 @@
     display: flex;
     width: 300px;
     height: 300px;
-    min-width: 300px;
+    min-width: 200px;
     /* margin-left: 2rem; */
     font-family: "Kodchasan";
     font-weight: 600;
@@ -212,11 +183,11 @@
   }
 
   .item-68-right img {
-    width: 55%;
+    width: 80%;
     height: 35%;
     position: absolute;
     top: 0;
-    left: 200px;
+    left: 100px;
     z-index: 3;
   }
 
@@ -238,6 +209,7 @@
     animation-name: item-68-content;
     animation-duration: 1s;
     z-index: 1;
+    font-size: 20px;
   }
 
   .item-68-left-content-child p {
@@ -248,7 +220,7 @@
     text-decoration: none;
     padding: 1rem 0;
     text-align: justify;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .item-68-left-content-child ul {
@@ -332,7 +304,7 @@
     display: flex;
     color: rgb(247, 245, 248);
     position: absolute;
-    bottom: 12rem;
+    bottom: 3rem;
     left: 6rem;
     width: 250px;
     text-transform: uppercase;
@@ -344,7 +316,7 @@
     width: 150px;
     height: 75px;
     position: absolute;
-    bottom: 11rem;
+    bottom: 2rem;
     left: 22rem;
   }
 
@@ -355,8 +327,8 @@
 
   .youtube-video-link68 {
     display: flex;
-    width: 360px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
   }
 
   .youtube-video-link68 iframe {
@@ -367,7 +339,7 @@
   .welcome-style {
     display: flex;
     position: absolute;
-    bottom: 14rem;
+    bottom: 6rem;
     right: 16rem;
   }
 
