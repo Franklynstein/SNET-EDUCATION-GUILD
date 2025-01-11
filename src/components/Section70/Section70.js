@@ -125,7 +125,7 @@ function Section70() {
       </div>
       <div id="none-navigator" className="next-div-7">
         <p>
-          <a href="/programs-workshop">
+          <a href="/programs-workgroups">
             SingularityNet Ambassador Program - Workgroups / guilds
           </a>
         </p>

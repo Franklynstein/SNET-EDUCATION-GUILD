@@ -10,10 +10,10 @@ function Section1() {
         <h2>Education Project</h2>
       </div>
       <div className="items">
-        <div className="item-top-right item-width">Red</div>
-        <div className="item-right item-width">Red</div>
-        <div className="item-left item-width">Red</div>
-        <div className="item-top-left item-width">Red</div>
+        <div className="item-top-right item-width"></div>
+        <div className="item-right item-width"></div>
+        <div className="item-left item-width"></div>
+        <div className="item-top-left item-width"></div>
       </div>
       <div id="none-navigator" className="next-div-1">
         <p>

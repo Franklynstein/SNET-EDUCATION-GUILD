@@ -35,8 +35,8 @@
 }
 
 .item-width {
-  background-color: rgb(237, 12, 93);
-  width: 180px;
+  background-color: rgb(33, 13, 61, 0.5);
+  width: 200px;
   height: 300px;
   border-radius: 16px;
 }
@@ -116,30 +116,50 @@
   }
 
   .item-width {
-    background-color: rgb(237, 12, 93);
-    width: 180px;
+    background-color: rgb(33, 13, 61, 0.5);
+    width: 200px;
     height: 300px;
     border-radius: 16px;
   }
 
   .item-right {
     margin: 40px 40px 40px 20px;
+    background-image: url("../assets/img/certification-core-program.png");
+    background-size: 100%;
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .item-left {
     margin: 40px 20px 40px 20px;
+    background-image: url("../assets/img/education-wiki.png");
+    background-size: 105%;
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .item-top-right {
     margin: -88px 60px 40px 80px;
+    background-image: url("../assets/img/ai-for-beginners-removebg-preview.png");
+    background-size: 110%;
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .item-top-left {
     margin: -88px 80px 40px 60px;
+    background-image: url("../assets/img/education-webinar.png");
+    background-size: 100%;
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .next-div-1 {
-    position: absolute;
+    position: fixed;
     top: 90vh;
     left: 89vw;
     display: flex;
@@ -195,8 +215,8 @@
   }
 
   .item-width {
-    background-color: rgb(237, 12, 93);
-    width: 180px;
+    background-color: rgb(33, 13, 61, 0.5);
+    width: 200px;
     height: 300px;
     border-radius: 16px;
   }
@@ -276,8 +296,8 @@
     }
 
     .item-width {
-      background-color: rgb(237, 12, 93);
-      width: 180px;
+      background-color: rgb(33, 13, 61, 0.5);
+      width: 200px;
       height: 300px;
       border-radius: 16px;
     }
@@ -299,7 +319,7 @@
     }
 
     .next-div-1 {
-      position: absolute;
+      position: fixed;
       top: 90vh;
       left: 89vw;
       display: flex;
