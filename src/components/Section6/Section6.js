@@ -77,6 +77,12 @@ function Section6() {
           <a href="/rejuve-ai">REJUVE.AI</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-3">
+        <p>
+          <a href="/nunet">Nunet</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

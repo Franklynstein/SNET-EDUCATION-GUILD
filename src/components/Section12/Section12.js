@@ -76,6 +76,12 @@ function Section12() {
           <a href="/nunet">NUNET</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/hyperon">Hyperon</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }
