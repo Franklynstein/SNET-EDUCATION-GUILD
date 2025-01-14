@@ -127,6 +127,25 @@
   color: rgb(247, 245, 248);
 }
 
+.next-div-3 {
+  position: fixed;
+  top: 90vh;
+  right: 16px;
+  display: flex;
+}
+
+.next-div-3 img {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  margin-left: 4px;
+}
+
+.next-div-3 a {
+  text-decoration: none;
+  color: rgb(247, 245, 248);
+}
+
 /* Mobile Desktop Styles (already in your CSS) */
 
 /* Desktop View (for screens up to 768px wide) */
@@ -256,5 +275,26 @@
   .previous-div-3 a {
     text-decoration: none;
     color: rgb(247, 245, 248);
+    text-transform: uppercase;
+  }
+
+  .next-div-3 {
+    position: fixed;
+    top: 90vh;
+    right: 16px;
+    display: flex;
+  }
+
+  .next-div-3 img {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    margin-left: 4px;
+  }
+
+  .next-div-3 a {
+    text-decoration: none;
+    color: rgb(247, 245, 248);
+    text-transform: uppercase;
   }
 }

@@ -100,6 +100,12 @@ function Section32() {
           <a href="/singularityDAO">SINGULARITYDAO</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/mindplex">Mindplex</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

@@ -96,6 +96,12 @@ function Section24() {
           <a href="/sophia-verse">SOPHIA VERSE</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/singularityDAO">SingularityDAO</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

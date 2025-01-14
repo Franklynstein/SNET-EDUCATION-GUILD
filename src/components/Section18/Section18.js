@@ -96,6 +96,12 @@ function Section18() {
           <a href="/hyperon">OPENCOG HYPERON</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/sophia-verse">Sophia Verse</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

@@ -133,5 +133,49 @@
 
   #dropdown {
     display: flex;
+    position: relative;
+  }
+
+  /* Projects Dropdown - Initially hidden */
+  .projects-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: rgb(237, 12, 93, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+  }
+
+  .projects-menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 columns */
+  }
+
+  .projects-menu ul li {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 8px;
+    min-width: 120px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-menu ul li:hover {
+    background: rgba(91, 5, 37, 0.5);
+  }
+
+  .projects-menu #ul-3 li {
+    border-bottom: none;
+  }
+
+  /* Show dropdown on hover */
+  .projects-menu:hover .projects-dropdown {
+    display: block;
+    opacity: 1;
+    transform: translateY(0); /* Drop down animation */
   }
 }

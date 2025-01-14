@@ -96,6 +96,12 @@ function Section3() {
           <a href="/features">FEATURES</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-3">
+        <p>
+          <a href="/rejuve-bio">Rejuve Bio</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

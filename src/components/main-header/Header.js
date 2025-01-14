@@ -43,8 +43,70 @@ function Header() {
             <li>
               <a href="/">Home</a>
             </li>
-            <li>
-              <a href="/">Project</a>
+            <li className="projects-menu">
+              <a href="/">Projects</a>
+              <div className="projects-dropdown">
+                <ul>
+                  <li>
+                    <a href="/rejuve-ai">Rejuve AI</a>
+                  </li>
+                  <li>
+                    <a href="/rejuve-bio">Rejuve Bio</a>
+                  </li>
+                  <li>
+                    <a href="/nunet">Nunet</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="/jam-galaxy">Jam Galaxy</a>
+                  </li>
+                  <li>
+                    <a href="/hyperon">Opencog Hyperon</a>
+                  </li>
+                  <li>
+                    <a href="/cogito">Cogito</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="/sophia-verse">Sophia Verse</a>
+                  </li>
+                  <li>
+                    <a href="/zarqa">Zarqa</a>
+                  </li>
+                  <li>
+                    <a href="/singularityDAO">SingularityDAO</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="/singularityNET">SingularityNET</a>
+                  </li>
+                  <li>
+                    <a href="/mindplex">Mindplex</a>
+                  </li>
+                  <li>
+                    <a href="/ambassadors">Ambassadors</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="/trueagi">TrueAGI</a>
+                  </li>
+                  <li>
+                    <a href="/twin-protocol">Twin Protocol</a>
+                  </li>
+                  <li>
+                    <a href="/hypercycle">HyperCycle</a>
+                  </li>
+                </ul>
+                <ul id="ul-3">
+                  <li>
+                    <a href="/awakening-health">Awakening Health</a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
               <a href="/">Ecosystem</a>

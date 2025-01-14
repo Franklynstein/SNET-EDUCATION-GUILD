@@ -97,6 +97,12 @@ function Section38() {
           <a href="/singularityNET">SINGULARITYNET</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/ambassadors">Ambassadors</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

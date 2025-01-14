@@ -96,6 +96,12 @@ function Section9() {
           <a href="/rejuve-bio">REJUVE.BIO</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/jam-galaxy">Jam Galaxy</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

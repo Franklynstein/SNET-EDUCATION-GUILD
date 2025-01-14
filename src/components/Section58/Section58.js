@@ -97,6 +97,12 @@ function Section58() {
           <a href="/twin-protocol">TWIN PROTOCOL</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/awakening-health">Awakening Health</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }

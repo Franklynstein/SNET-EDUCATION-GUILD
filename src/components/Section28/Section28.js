@@ -97,6 +97,12 @@ function Section28() {
           <a href="/zarqa">ZARQA</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/singularityNET">SingularityNET</a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }
