@@ -99,6 +99,14 @@ function Section63() {
           <a href="/hypercycle">HYPERCYCLE</a>
         </p>
       </div>
+      <div id="none-navigator" className="next-div-7">
+        <p>
+          <a href="/programs-discord">
+            SingularityNet Ambassador Program - Discord
+          </a>
+        </p>
+        <img src={navigatorImage} alt="" />
+      </div>
     </section>
   );
 }
