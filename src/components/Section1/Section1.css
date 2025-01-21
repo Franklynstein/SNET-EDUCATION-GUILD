@@ -142,8 +142,12 @@
     border-radius: 16px;
   }
 
+  .a-right {
+    margin: 0 20px;
+  }
+
   .item-right {
-    margin: 40px 40px 40px 20px;
+    margin: 40px 0px;
     background-image: url("../assets/img/certification-core-program.png");
     background-size: 100%;
     /* background-size: contain; */
@@ -151,8 +155,12 @@
     background-repeat: no-repeat;
   }
 
+  .a-left {
+    margin: 0 20px;
+  }
+
   .item-left {
-    margin: 40px 20px 40px 20px;
+    margin: 40px 0px;
     background-image: url("../assets/img/education-wiki.png");
     background-size: 105%;
     /* background-size: contain; */
@@ -160,8 +168,12 @@
     background-repeat: no-repeat;
   }
 
+  .a-top-right {
+    margin-right: 40px;
+  }
+
   .item-top-right {
-    margin: -88px 60px 40px 80px;
+    margin: -88px 20px 40px 80px;
     background-image: url("../assets/img/ai-for-beginners-removebg-preview.png");
     background-size: 110%;
     /* background-size: contain; */
@@ -169,8 +181,12 @@
     background-repeat: no-repeat;
   }
 
+  .a-top-left {
+    margin-left: 40px;
+  }
+
   .item-top-left {
-    margin: -88px 80px 40px 60px;
+    margin: -88px 80px 40px 20px;
     background-image: url("../assets/img/education-webinar.png");
     background-size: 100%;
     /* background-size: contain; */
