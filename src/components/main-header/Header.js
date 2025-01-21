@@ -24,18 +24,18 @@ function Header() {
         </div>
         <div className={`dropdown-menu ${isOpen ? "open" : "closed"}`}>
           <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/">Project</a>
-            </li>
-            <li>
-              <a href="/">Ecosystem</a>
-            </li>
-            <li>
-              <a href="/">Product</a>
-            </li>
+            <a href="/">
+              <li>Home</li>
+            </a>
+            <a href="/">
+              <li>Project</li>
+            </a>
+            <a href="/">
+              <li>Ecosystem</li>
+            </a>
+            <a href="/">
+              <li>Product</li>
+            </a>
           </ul>
         </div>
         <div id="dropdown">
@@ -47,64 +47,64 @@ function Header() {
               <a href="/">Projects</a>
               <div className="projects-dropdown">
                 <ul>
-                  <li>
-                    <a href="/rejuve-ai">Rejuve AI</a>
-                  </li>
-                  <li>
-                    <a href="/rejuve-bio">Rejuve Bio</a>
-                  </li>
-                  <li>
-                    <a href="/nunet">Nunet</a>
-                  </li>
+                  <a href="/rejuve-ai">
+                    <li>Rejuve AI</li>
+                  </a>
+                  <a href="/rejuve-bio">
+                    <li>Rejuve Bio</li>
+                  </a>
+                  <a href="/nunet">
+                    <li>Nunet</li>
+                  </a>
                 </ul>
                 <ul>
-                  <li>
-                    <a href="/jam-galaxy">Jam Galaxy</a>
-                  </li>
-                  <li>
-                    <a href="/hyperon">Opencog Hyperon</a>
-                  </li>
-                  <li>
-                    <a href="/cogito">Cogito</a>
-                  </li>
+                  <a href="/jam-galaxy">
+                    <li>Jam Galaxy</li>
+                  </a>
+                  <a href="/hyperon">
+                    <li>Opencog Hyperon</li>
+                  </a>
+                  <a href="/cogito">
+                    <li>Cogito</li>
+                  </a>
                 </ul>
                 <ul>
-                  <li>
-                    <a href="/sophia-verse">Sophia Verse</a>
-                  </li>
-                  <li>
-                    <a href="/zarqa">Zarqa</a>
-                  </li>
-                  <li>
-                    <a href="/singularityDAO">SingularityDAO</a>
-                  </li>
+                  <a href="/sophia-verse">
+                    <li>Sophia Verse</li>
+                  </a>
+                  <a href="/zarqa">
+                    <li>Zarqa</li>
+                  </a>
+                  <a href="/singularityDAO">
+                    <li>SingularityDAO</li>
+                  </a>
                 </ul>
                 <ul>
-                  <li>
-                    <a href="/singularityNET">SingularityNET</a>
-                  </li>
-                  <li>
-                    <a href="/mindplex">Mindplex</a>
-                  </li>
-                  <li>
-                    <a href="/ambassadors">Ambassadors</a>
-                  </li>
+                  <a href="/singularityNET">
+                    <li>SingularityNET</li>
+                  </a>
+                  <a href="/mindplex">
+                    <li>Mindplex</li>
+                  </a>
+                  <a href="/ambassadors">
+                    <li>Ambassadors</li>
+                  </a>
                 </ul>
                 <ul>
-                  <li>
-                    <a href="/trueagi">TrueAGI</a>
-                  </li>
-                  <li>
-                    <a href="/twin-protocol">Twin Protocol</a>
-                  </li>
-                  <li>
-                    <a href="/hypercycle">HyperCycle</a>
-                  </li>
+                  <a href="/trueagi">
+                    <li>TrueAGI</li>
+                  </a>
+                  <a href="/twin-protocol">
+                    <li>Twin Protocol</li>
+                  </a>
+                  <a href="/hypercycle">
+                    <li>HyperCycle</li>
+                  </a>
                 </ul>
                 <ul id="ul-3">
-                  <li>
-                    <a href="/awakening-health">Awakening Health</a>
-                  </li>
+                  <a href="/awakening-health">
+                    <li>Awakening Health</li>
+                  </a>
                 </ul>
               </div>
             </li>

@@ -51,6 +51,10 @@
   opacity: 1; /* Fade in */
 }
 
+.dropdown-menu ul a:hover {
+  background: rgba(91, 5, 37, 0.5);
+}
+
 .dropdown-menu.closed {
   transform: scaleY(0); /* Collapse vertically */
   opacity: 0; /* Fade out */
@@ -128,6 +132,10 @@
   }
 
   #hamburger {
+    display: none;
+  }
+
+  .dropdown-menu {
     display: none;
   }
 
