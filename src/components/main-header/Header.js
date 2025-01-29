@@ -2,13 +2,21 @@ import { useState } from "react";
 import "../main.css";
 import "./Header.css";
 import Hamburger from "hamburger-react";
-import logo from "../assets/img/edulogo-2.png"
+import logo from "../assets/img/logo-new-1.png"
 
 function Header() {
   const [isOpen, setOpen] = useState(false);
+  const [isEcosystemOpen, setEcosystemOpen] = useState(false);
 
   const toggleMenu = () => {
     setOpen(!isOpen);
+    setEcosystemOpen(false);
+  };
+
+  const toggleEcosystem = () => {
+    setEcosystemOpen(!isEcosystemOpen);
+    console.log('yex')
+    console.log(isEcosystemOpen)
   };
 
   return (
@@ -35,9 +43,29 @@ function Header() {
             <a href="/">
               <li>Project</li>
             </a>
-            <a href="/">
-              <li>Ecosystem</li>
-            </a>
+            <li className="ecosystem-link" onClick={toggleEcosystem}> 
+              <a>Ecosystem</a>
+              <div className={`ecosystem-dropdown ${isEcosystemOpen ? "open" : "hide"}`}> 
+                <ul>
+                  <li><a href="/rejuve-ai">Rejuve AI</a></li>
+                  <li><a href="/rejuve-bio">Rejuve Bio</a></li>
+                  <li><a href="/nunet">Nunet</a></li>
+                  <li><a href="/jam-galaxy">Jam Galaxy</a></li>
+                  <li><a href="/hyperon">Opencog Hyperon</a></li>
+                  <li><a href="/cogito">Cogito</a></li>
+                  <li><a href="/sophia-verse">Sophia Verse</a></li>
+                  <li><a href="/zarqa">Zarqa</a></li>
+                  <li><a href="/singularityDAO">SingularityDAO</a></li>
+                  <li><a href="/singularityNET">SingularityNET</a></li>
+                  <li><a href="/mindplex">Mindplex</a></li>
+                  <li><a href="/ambassadors">Ambassadors</a></li>
+                  <li><a href="/trueagi">TrueAGI</a></li>
+                  <li><a href="/twin-protocol">Twin Protocol</a></li>
+                  <li><a href="/hypercycle">HyperCycle</a></li>
+                  <li><a href="/awakening-health">Awakening Health</a></li>
+                </ul>
+              </div>
+            </li>
             <a href="/programs-discord">
               <li>Ambassador Program</li>
             </a>
