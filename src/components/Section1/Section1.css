@@ -36,9 +36,12 @@
 
 .item-width {
   background-color: rgb(33, 13, 61, 0.5);
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 370px;
   border-radius: 16px;
+  opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .item-right {
@@ -137,9 +140,13 @@
 
   .item-width {
     background-color: rgb(33, 13, 61, 0.5);
-    width: 200px;
-    height: 300px;
+    width: 230px;
+    height: 360px;
     border-radius: 16px;
+    margin: 20px !important;
+    opacity: 0;
+    transform: translateY(50px); 
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
 
   .a-right {
@@ -170,6 +177,7 @@
 
   .a-top-right {
     margin-right: 40px;
+    margin-top: -100px !important;
   }
 
   .item-top-right {
@@ -183,6 +191,7 @@
 
   .a-top-left {
     margin-left: 40px;
+    margin-top: -100px !important;
   }
 
   .item-top-left {
@@ -192,6 +201,7 @@
     /* background-size: contain; */
     background-position: center;
     background-repeat: no-repeat;
+
   }
 
   .next-div-1 {
@@ -212,4 +222,22 @@
     text-decoration: none;
     color: rgb(247, 245, 248);
   }
+
+  
+}
+
+@keyframes animateUp {
+  from {
+    transform: translateY(50px); 
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.item-width.animate {
+  opacity: 1;
+  transform: translateY(0);
 }

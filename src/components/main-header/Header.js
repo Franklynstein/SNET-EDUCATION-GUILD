@@ -13,7 +13,7 @@ function Header() {
   return (
     <section className="main-section-header">
       <header className="page-header">
-        <nav>SNET education guild</nav>
+        <nav className="">SNET education guild</nav>
         <div id="hamburger">
           <Hamburger
             onToggle={toggleMenu}
@@ -33,8 +33,8 @@ function Header() {
             <a href="/">
               <li>Ecosystem</li>
             </a>
-            <a href="/">
-              <li>Product</li>
+            <a href="/programs-discord">
+              <li>Ambassador Program</li>
             </a>
           </ul>
         </div>
@@ -43,8 +43,13 @@ function Header() {
             <li>
               <a href="/">Home</a>
             </li>
-            <li className="projects-menu">
+            
+            <li>
               <a href="/">Projects</a>
+            </li>
+
+            <li className="projects-menu">
+              <a href="/">Ecosystem</a>
               <div className="projects-dropdown">
                 <ul>
                   <a href="/rejuve-ai">
@@ -109,10 +114,7 @@ function Header() {
               </div>
             </li>
             <li>
-              <a href="/">Ecosystem</a>
-            </li>
-            <li>
-              <a href="/">Product</a>
+              <a href="/programs-discord">Ambassador Program</a>
             </li>
           </ul>
         </div>
