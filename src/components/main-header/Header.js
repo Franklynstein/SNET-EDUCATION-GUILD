@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../main.css";
 import "./Header.css";
 import Hamburger from "hamburger-react";
+import logo from "../assets/img/edulogo-2.png"
 
 function Header() {
   const [isOpen, setOpen] = useState(false);
@@ -13,7 +14,11 @@ function Header() {
   return (
     <section className="main-section-header">
       <header className="page-header">
-        <nav className="">SNET education guild</nav>
+      
+      
+      <div className="logo-container"> 
+      <img src={logo} alt="SNET Education Guild Logo" /> 
+        </div>
         <div id="hamburger">
           <Hamburger
             onToggle={toggleMenu}

@@ -193,4 +193,34 @@
     opacity: 1;
     transform: translateY(0); /* Drop down animation */
   }
+
+  .logo-container {
+    display: flex;
+    margin-right: 20px;
+  }
+  
+  .logo-container img {
+    height: 40px; 
+    margin-right: 10px; 
+  }
+
+  .logo-container {
+    margin-right: 10px; 
+  }
+  .logo-container img {
+    height: 30px;
+  }
 }
+
+
+
+.logo-container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.logo-container img {
+  height: 40px; 
+  margin-right: 10px; 
+}
+/* Other styles for responsiveness, etc. */
