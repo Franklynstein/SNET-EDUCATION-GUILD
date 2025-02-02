@@ -28,7 +28,6 @@ function Section2() {
           </div>
           <div className="item-2-bottom-container">
             <div className="item-2-bottom-left item-2-radius">
-              <a  href="/">
               <p>
                 Education Guild <br />
                 Projects
@@ -48,10 +47,8 @@ function Section2() {
                   alt="Download Outline Icon"
                 />
               </div>
-              </a>
             </div>
             <div className="item-2-bottom item-2-radius">
-              <a href="/programs-discord">
               <p>
                 Ambassador <br />
                 Program Discord
@@ -71,10 +68,8 @@ function Section2() {
                   alt="Download Outline Icon"
                 />
               </div>
-              </a>
             </div>
             <div className="item-2-bottom-right item-2-radius">
-              <a href="/rejuve-ai">
               <p>
                 SnET Ecosystem <br />
                 and Technology
@@ -94,7 +89,6 @@ function Section2() {
                   alt="Download Outline Icon"
                 />
               </div>
-              </a>
             </div>
           </div>
         </div>
