@@ -4,12 +4,11 @@ import navigatorImage from "../assets/img/navigator-image.png";
 import { useEffect } from "react";
 
 function Section1() {
-
   useEffect(() => {
-    const cards = document.querySelectorAll('.item-width');
+    const cards = document.querySelectorAll(".item-width");
     cards.forEach((card, index) => {
       setTimeout(() => {
-        card.classList.add('animate');
+        card.classList.add("animate");
       }, index * 200); // Adjust delay for staggered effect
     });
   }, []);
