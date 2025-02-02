@@ -38,7 +38,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  width: 200px;
+  width: 100%;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -108,7 +108,37 @@
   /* position: relative; */
 }
 
+.logo-container {
+  display: flex;
+  margin-right: 20px;
+}
+
+.logo-container img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.ecosystem-dropdown {
+  display: block; /* Show the ecosystem dropdown on mobile */
+}
+
+.ecosystem-link {
+  position: relative; /* Needed for absolute positioning of dropdown */
+}
+
 @media (min-width: 769px) {
+  .page-header nav {
+    font-size: 1.5rem;
+  }
+
+  .page-header li {
+    font-size: 1.2rem;
+  }
+
+  .projects-menu li {
+    font-size: 1rem;
+  }
+
   .page-header {
     padding: 1rem 2rem;
     display: flex;
@@ -186,4 +216,28 @@
     opacity: 1;
     transform: translateY(0); /* Drop down animation */
   }
+
+  .logo-container {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .logo-container img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .logo-container {
+    margin-right: 10px;
+  }
+  .logo-container img {
+    height: 45px;
+  }
+  .ecosystem-dropdown {
+    display: none;
+  }
+}
+
+.hide {
+  display: none; /* Or visibility: hidden; depending on your needs */
 }

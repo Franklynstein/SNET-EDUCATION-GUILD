@@ -2,18 +2,28 @@ import { useState } from "react";
 import "../main.css";
 import "./Header.css";
 import Hamburger from "hamburger-react";
+import logo from "../assets/img/logo-new-1.png";
 
 function Header() {
   const [isOpen, setOpen] = useState(false);
+  const [isEcosystemOpen, setEcosystemOpen] = useState(false);
 
   const toggleMenu = () => {
     setOpen(!isOpen);
   };
 
+  const toggleEcosystem = () => {
+    setEcosystemOpen(!isEcosystemOpen);
+    console.log("yex");
+    console.log(isEcosystemOpen);
+  };
+
   return (
     <section className="main-section-header">
       <header className="page-header">
-        <nav>SNET education guild</nav>
+        <div className="logo-container">
+          <img src={logo} alt="SNET Education Guild Logo" />
+        </div>
         <div id="hamburger">
           <Hamburger
             onToggle={toggleMenu}
@@ -30,11 +40,67 @@ function Header() {
             <a href="/">
               <li>Project</li>
             </a>
-            <a href="/">
+            <li className="ecosystem-link" onClick={toggleEcosystem}>
               <li>Ecosystem</li>
-            </a>
-            <a href="/">
-              <li>Product</li>
+              <div
+                className={`ecosystem-dropdown ${
+                  isEcosystemOpen ? "open" : "hide"
+                }`}
+              >
+                <ul>
+                  <li>
+                    <a href="/rejuve-ai">Rejuve AI</a>
+                  </li>
+                  <li>
+                    <a href="/rejuve-bio">Rejuve Bio</a>
+                  </li>
+                  <li>
+                    <a href="/nunet">Nunet</a>
+                  </li>
+                  <li>
+                    <a href="/jam-galaxy">Jam Galaxy</a>
+                  </li>
+                  <li>
+                    <a href="/hyperon">Opencog Hyperon</a>
+                  </li>
+                  <li>
+                    <a href="/cogito">Cogito</a>
+                  </li>
+                  <li>
+                    <a href="/sophia-verse">Sophia Verse</a>
+                  </li>
+                  <li>
+                    <a href="/zarqa">Zarqa</a>
+                  </li>
+                  <li>
+                    <a href="/singularityDAO">SingularityDAO</a>
+                  </li>
+                  <li>
+                    <a href="/singularityNET">SingularityNET</a>
+                  </li>
+                  <li>
+                    <a href="/mindplex">Mindplex</a>
+                  </li>
+                  <li>
+                    <a href="/ambassadors">Ambassadors</a>
+                  </li>
+                  <li>
+                    <a href="/trueagi">TrueAGI</a>
+                  </li>
+                  <li>
+                    <a href="/twin-protocol">Twin Protocol</a>
+                  </li>
+                  <li>
+                    <a href="/hypercycle">HyperCycle</a>
+                  </li>
+                  <li>
+                    <a href="/awakening-health">Awakening Health</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <a href="/programs-discord">
+              <li>Ambassador Program</li>
             </a>
           </ul>
         </div>
@@ -43,8 +109,11 @@ function Header() {
             <li>
               <a href="/">Home</a>
             </li>
-            <li className="projects-menu">
+            <li>
               <a href="/">Projects</a>
+            </li>
+            <li className="projects-menu">
+              <a href="/">Ecosystem</a>
               <div className="projects-dropdown">
                 <ul>
                   <a href="/rejuve-ai">
@@ -109,10 +178,7 @@ function Header() {
               </div>
             </li>
             <li>
-              <a href="/">Ecosystem</a>
-            </li>
-            <li>
-              <a href="/">Product</a>
+              <a href="/programs-discord">Ambassador Program</a>
             </li>
           </ul>
         </div>

@@ -15,6 +15,7 @@
   align-items: center;
   color: rgb(247, 245, 248);
   font-family: "Roboto", serif;
+  row-gap: 2rem;
 }
 
 .container h1 {
@@ -36,8 +37,8 @@
 
 .item-width {
   background-color: rgb(33, 13, 61, 0.5);
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 370px;
   border-radius: 16px;
 }
 
@@ -137,9 +138,15 @@
 
   .item-width {
     background-color: rgb(33, 13, 61, 0.5);
-    width: 200px;
-    height: 300px;
+    width: 230px;
+    height: 360px;
     border-radius: 16px;
+    margin: 20px !important;
+  }
+
+  .item-width.animate {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .a-right {
@@ -170,6 +177,7 @@
 
   .a-top-right {
     margin-right: 40px;
+    margin-top: -100px !important;
   }
 
   .item-top-right {
@@ -183,6 +191,7 @@
 
   .a-top-left {
     margin-left: 40px;
+    margin-top: -100px !important;
   }
 
   .item-top-left {
