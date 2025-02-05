@@ -40,6 +40,7 @@ function Section2() {
                   alt="Animated Helicopter Carrying Webpage"
                 />
               </div>
+              <a href="/" target="_blank" rel="noopener noreferrer">
               <div className="item-2-bottom-right-next">
                 <img
                   src={iconEight}
@@ -47,6 +48,7 @@ function Section2() {
                   alt="Download Outline Icon"
                 />
               </div>
+              </a>
             </div>
             <div className="item-2-bottom item-2-radius">
               <p>
@@ -61,6 +63,7 @@ function Section2() {
                   alt="Animated Helicopter Carrying Webpage"
                 />
               </div>
+              <a href="https://discord.gg/snet" target="_blank" rel="noopener noreferrer">
               <div className="item-2-bottom-right-next">
                 <img
                   src={iconEight}
@@ -68,10 +71,11 @@ function Section2() {
                   alt="Download Outline Icon"
                 />
               </div>
+              </a>
             </div>
             <div className="item-2-bottom-right item-2-radius">
               <p>
-                SnET Ecosystem <br />
+                SNET Ecosystem <br />
                 and Technology
               </p>
               <div className="section-2-image">
@@ -82,14 +86,16 @@ function Section2() {
                   alt="Animated Helicopter Carrying Webpage"
                 />
               </div>
-              <div className="item-2-bottom-right-next">
-                <img
+              <a href="/rejuve-ai" target="_blank" rel="noopener noreferrer">
+                    <div className="item-2-bottom-right-next">
+                    <img
                   src={iconEight}
                   draggable="false"
                   alt="Download Outline Icon"
                 />
+                </div>
+              </a>
               </div>
-            </div>
           </div>
         </div>
       </div>
