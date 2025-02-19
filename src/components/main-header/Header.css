@@ -38,7 +38,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
-  width: 200px;
+  width: 100%;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.3s ease, opacity 0.3s ease;
@@ -114,18 +114,31 @@
 }
 
 .logo-container img {
-  height: 40px; 
-  margin-right: 10px; 
+  height: 40px;
+  margin-right: 10px;
+}
+
+.ecosystem-dropdown {
+  display: block; /* Show the ecosystem dropdown on mobile */
+}
+
+.ecosystem-link {
+  position: relative; /* Needed for absolute positioning of dropdown */
 }
 
 @media (min-width: 769px) {
-  nav{
+  .page-header nav {
     font-size: 1.5rem;
-
   }
-  a{
+
+  .page-header li {
     font-size: 1.2rem;
   }
+
+  .projects-menu li {
+    font-size: 1rem;
+  }
+
   .page-header {
     padding: 1rem 2rem;
     display: flex;
@@ -208,67 +221,17 @@
     display: flex;
     margin-right: 20px;
   }
-  
+
   .logo-container img {
-    height: 40px; 
-    margin-right: 10px; 
+    height: 40px;
+    margin-right: 10px;
   }
 
   .logo-container {
-    margin-right: 10px; 
+    margin-right: 10px;
   }
   .logo-container img {
     height: 45px;
-  }
-}
-
-@media (max-width: 768px) {
-  /* ... existing mobile styles ... */
-
-  .projects-menu {
-    display: none; /* Hide the existing projects menu on mobile */
-  }
-
-  .ecosystem-dropdown {
-    display: block; /* Show the ecosystem dropdown on mobile */
-  }
-
-  .projects-menu:hover .projects-dropdown {
-    display: none; /* Hide hover effect on mobile */
-  }
-
-  .ecosystem-link {
-    position: relative; /* Needed for absolute positioning of dropdown */
-  }
-}
-
-@media (max-width: 768px) {
-  #hamburger {
-    display: flex;
-  }
-  #dropdown {
-    display: none;
-  }
-  .dropdown-menu {
-    position: absolute;
-    top: 60px;
-    right: 10px;
-    width: 100%;
-  }
-  .ecosystem-link {
-    position: relative;
-  }
-}
-
-@media (min-width: 769px) {
-  #hamburger {
-    display: none;
-  }
-  .dropdown-menu {
-    display: none;
-  }
-  #dropdown {
-    display: flex;
   }
   .ecosystem-dropdown {
     display: none;
@@ -278,7 +241,3 @@
 .hide {
   display: none; /* Or visibility: hidden; depending on your needs */
 }
-
-
-
-/* Other styles for responsiveness, etc. */

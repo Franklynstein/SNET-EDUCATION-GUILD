@@ -28,7 +28,6 @@ function Section2() {
           </div>
           <div className="item-2-bottom-container">
             <div className="item-2-bottom-left item-2-radius">
-              <a  href="/">
               <p>
                 Education Guild <br />
                 Projects
@@ -41,6 +40,7 @@ function Section2() {
                   alt="Animated Helicopter Carrying Webpage"
                 />
               </div>
+              <a href="/" target="_blank" rel="noopener noreferrer">
               <div className="item-2-bottom-right-next">
                 <img
                   src={iconEight}
@@ -51,7 +51,6 @@ function Section2() {
               </a>
             </div>
             <div className="item-2-bottom item-2-radius">
-              <a href="/programs-discord">
               <p>
                 Ambassador <br />
                 Program Discord
@@ -64,6 +63,7 @@ function Section2() {
                   alt="Animated Helicopter Carrying Webpage"
                 />
               </div>
+              <a href="https://discord.gg/snet" target="_blank" rel="noopener noreferrer">
               <div className="item-2-bottom-right-next">
                 <img
                   src={iconEight}
@@ -74,9 +74,8 @@ function Section2() {
               </a>
             </div>
             <div className="item-2-bottom-right item-2-radius">
-              <a href="/rejuve-ai">
               <p>
-                SnET Ecosystem <br />
+                SNET Ecosystem <br />
                 and Technology
               </p>
               <div className="section-2-image">
@@ -87,15 +86,16 @@ function Section2() {
                   alt="Animated Helicopter Carrying Webpage"
                 />
               </div>
-              <div className="item-2-bottom-right-next">
-                <img
+              <a href="/rejuve-ai" target="_blank" rel="noopener noreferrer">
+                    <div className="item-2-bottom-right-next">
+                    <img
                   src={iconEight}
                   draggable="false"
                   alt="Download Outline Icon"
                 />
-              </div>
+                </div>
               </a>
-            </div>
+              </div>
           </div>
         </div>
       </div>
