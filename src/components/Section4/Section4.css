@@ -255,6 +255,7 @@
   .item-4-left-image {
     transition: transform 1s ease-out; /* For smooth sliding effect */
     transform: translateX(100%); /* Initially off-screen to the left */
+    
   }
 
   .item-4-left-image.slide-in {

@@ -6,10 +6,14 @@ import width200_2 from "../assets/img/width-200_2.png";
 import width200 from "../assets/img/width-200.png";
 import width200_3 from "../assets/img/width-200_3.png";
 import navigatorImage from "../assets/img/navigator-image.png";
+import Sidebar from "../Eco/Sidebar";
 
 function Section3() {
+  
   return (
     <section id="3" className="main-section main-section-flex">
+
+
       <div className="items-3">
         <h2>Rejuve.AI</h2>
         <div className="item-3-container">

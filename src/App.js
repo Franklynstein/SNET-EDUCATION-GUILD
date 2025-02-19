@@ -76,6 +76,7 @@ import Section72 from "./components/Section72/Section72";
 import Section71 from "./components/Section71/Section71";
 import Section69 from "./components/Section69/Section69";
 import Section70 from "./components/Section70/Section70";
+import Eco from "./components/Eco/Eco"
 
 function App() {
   return (
@@ -83,8 +84,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Section1 />} />
+        <Route path="/eco" element={<Eco />} />
         <Route path="/features" element={<Section2 />} />
-        <Route path="/rejuve-ai" element={<Section3 />} />
+        <Route path="/rejuve-ai" element={<Eco />} />
         <Route path="/what-is-rejuve-ai" element={<Section4 />} />
         <Route path="/when-was-rejuve-ai" element={<Section5 />} />
         <Route path="/rejuve-bio" element={<Section6 />} />
