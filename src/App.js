@@ -77,6 +77,9 @@ import Section71 from "./components/Section71/Section71";
 import Section69 from "./components/Section69/Section69";
 import Section70 from "./components/Section70/Section70";
 import Eco from "./components/Eco/Eco"
+import Bio from "./components/RejuveBio/Bio"
+import Nunet from "./components/Nunet/Nunet"
+import Jam from "./components/Jam/Jam"
 
 function App() {
   return (
@@ -89,13 +92,13 @@ function App() {
         <Route path="/rejuve-ai" element={<Eco />} />
         <Route path="/what-is-rejuve-ai" element={<Section4 />} />
         <Route path="/when-was-rejuve-ai" element={<Section5 />} />
-        <Route path="/rejuve-bio" element={<Section6 />} />
+        <Route path="/rejuve-bio" element={<Bio />} />
         <Route path="/what-is-rejuve-bio" element={<Section7 />} />
         <Route path="/who-discovered-rejuve-bio" element={<Section8 />} />
-        <Route path="/nunet" element={<Section9 />} />
+        <Route path="/nunet" element={<Nunet />} />
         <Route path="/what-is-nunet" element={<Section10 />} />
         <Route path="/when-was-nunet" element={<Section11 />} />
-        <Route path="/jam-galaxy" element={<Section12 />} />
+        <Route path="/jam-galaxy" element={<Jam />} />
         <Route path="/what-is-jam" element={<Section13 />} />
         <Route path="/when-was-jam" element={<Section14 />} />
         <Route path="/hyperon" element={<Section15 />} />
