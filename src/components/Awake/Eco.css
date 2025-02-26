@@ -93,8 +93,6 @@
     background-color: #4b0082;
   }
   
-
-
   @media (max-width: 768px) {
     .sidebar {
         display: none; 

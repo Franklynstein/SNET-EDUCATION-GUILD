@@ -80,6 +80,18 @@ import Eco from "./components/Eco/Eco"
 import Bio from "./components/RejuveBio/Bio"
 import Nunet from "./components/Nunet/Nunet"
 import Jam from "./components/Jam/Jam"
+import Hyperon from "./components/Hyperon/Hyperon";
+import Cogito from "./components/Cogito/Cogito";
+import Sophia from "./components/Sophia/Sophia";
+import Zarqa from "./components/Zarqa/Zarqa";
+import Singularity from "./components/Singularity/Singularity";
+import Snet from "./components/SNET/Snet";
+import Mindplex from "./components/Mindplex/Mindplex";
+import Amb from "./components/Amb/Amb";
+import True from "./components/True/True";
+import Twin from "./components/Twin/Twin";
+import Hyper from "./components/Hyper/Hyper";
+import Awake from "./components/Awake/Awake";
 
 function App() {
   return (
@@ -101,55 +113,55 @@ function App() {
         <Route path="/jam-galaxy" element={<Jam />} />
         <Route path="/what-is-jam" element={<Section13 />} />
         <Route path="/when-was-jam" element={<Section14 />} />
-        <Route path="/hyperon" element={<Section15 />} />
+        <Route path="/hyperon" element={<Hyperon />} />
         <Route path="/what-is-hyperon" element={<Section16 />} />
         <Route path="/when-was-hyperon" element={<Section17 />} />
-        <Route path="/cogito" element={<Section18 />} />
+        <Route path="/cogito" element={<Cogito />} />
         <Route path="/what-is-cogito" element={<Section19 />} />
         <Route path="/when-was-cogito" element={<Section20 />} />
-        <Route path="/sophia-verse" element={<Section21 />} />
+        <Route path="/sophia-verse" element={<Sophia />} />
         <Route path="/what-is-sophia" element={<Section22 />} />
         <Route path="/when-was-sophia" element={<Section23 />} />
-        <Route path="/zarqa" element={<Section24 />} />
+        <Route path="/zarqa" element={<Zarqa />} />
         <Route path="/what-is-zarqa" element={<Section25 />} />
         <Route path="/how-does-zarqa" element={<Section26 />} />
         <Route path="/zarqa-tokenomics" element={<Section27 />} />
-        <Route path="/singularityDAO" element={<Section28 />} />
+        <Route path="/singularityDAO" element={<Singularity />} />
         <Route path="/what-is-singularityDAO" element={<Section29 />} />
         <Route path="/how-does-singularityDAO" element={<Section30 />} />
         <Route path="/singularityDAO-tokenomics" element={<Section31 />} />
-        <Route path="/singularityNET" element={<Section32 />} />
+        <Route path="/singularityNET" element={<Snet />} />
         <Route path="/what-is-singularityNET" element={<Section33 />} />
         <Route path="/who-discovered-singularityNET" element={<Section34 />} />
         <Route path="/how-does-singularityNET" element={<Section35 />} />
         <Route path="/singularityNET-tokenomics" element={<Section36 />} />
         <Route path="/singularityNET-tokenomics-2" element={<Section37 />} />
-        <Route path="/mindplex" element={<Section38 />} />
+        <Route path="/mindplex" element={<Mindplex />} />
         <Route path="/what-is-mindplex" element={<Section39 />} />
         <Route path="/who-discovered-mindplex" element={<Section40 />} />
         <Route path="/how-does-mindplex" element={<Section41 />} />
         <Route path="/mindplex-tokenomics" element={<Section42 />} />
-        <Route path="/ambassadors" element={<Section43 />} />
+        <Route path="/ambassadors" element={<Amb />} />
         <Route path="/what-is-ambassadors" element={<Section44 />} />
         <Route path="/who-discovered-ambassadors" element={<Section45 />} />
         <Route path="/how-does-ambassadors" element={<Section46 />} />
         <Route path="/ambassadors-tokenomics" element={<Section47 />} />
-        <Route path="/trueagi" element={<Section48 />} />
+        <Route path="/trueagi" element={<True />} />
         <Route path="/what-is-trueagi" element={<Section49 />} />
         <Route path="/who-discovered-trueagi" element={<Section50 />} />
         <Route path="/how-does-trueagi" element={<Section51 />} />
         <Route path="/trueagi-tokenomics" element={<Section52 />} />
-        <Route path="/twin-protocol" element={<Section53 />} />
+        <Route path="/twin-protocol" element={<Twin />} />
         <Route path="/what-is-twin-protocol" element={<Section54 />} />
         <Route path="/who-discovered-twin-protocol" element={<Section55 />} />
         <Route path="/how-does-twin-protocol" element={<Section56 />} />
         <Route path="/twin-protocol-tokenomics" element={<Section57 />} />
-        <Route path="/hypercycle" element={<Section58 />} />
+        <Route path="/hypercycle" element={<Hyper />} />
         <Route path="/what-is-hypercycle" element={<Section59 />} />
         <Route path="/who-discovered-hypercycle" element={<Section60 />} />
         <Route path="/how-does-hypercycle" element={<Section61 />} />
         <Route path="/hypercycle-tokenomics" element={<Section62 />} />
-        <Route path="/awakening-health" element={<Section63 />} />
+        <Route path="/awakening-health" element={<Awake />} />
         <Route path="/what-is-awakening-health" element={<Section64 />} />
         <Route
           path="/who-discovered-awakening-health"

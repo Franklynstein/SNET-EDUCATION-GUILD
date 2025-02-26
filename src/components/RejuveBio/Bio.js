@@ -8,6 +8,7 @@ import Sidebar from "./Sidebar";
 
 const Bio = () => {
     const [selectedComponent, setSelectedComponent] = useState("WHAT IS REJUVE.AI");
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     const navigation = [
       { path: "What is Rejuve.BIO", component: "WHAT IS REJUVE.AI" },
@@ -21,11 +22,24 @@ const Bio = () => {
       <div className="container">
         <Sidebar navigation={navigation} setSelectedComponent={setSelectedComponent} />
         <div className="content">
-          {selectedComponent === "WHAT IS REJUVE.AI" && <Section7 />}
-          {selectedComponent === "WHO DISCOVERED IT" && <Section8 />}
-          {selectedComponent === "HOW DOES IT OPERATE" && <Section8 />}
-          {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section8 />}
-          {/* Add other sections here */}
+
+        {isMobile ? (
+                    navigation.map((item, index) => (
+                        <div key={index} id={item.path.replace(/\s+/g, "")}>
+                            {item.component === "WHAT IS REJUVE.AI" && <Section7 />}
+                            {item.component === "WHO DISCOVERED IT" && <Section8 />}
+                            {item.component === "HOW DOES IT OPERATE" && <Section8 />}
+                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section7 />}
+                        </div>
+                    ))
+                ) : (
+                    <>
+                        {selectedComponent === "WHAT IS REJUVE.AI" && <Section7 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section8 />}
+                        {selectedComponent === "HOW DOES IT OPERATE" && <Section8 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section7 />}
+                    </>
+                )}
         </div>
       </div>
     );
