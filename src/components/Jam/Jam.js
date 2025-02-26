@@ -32,7 +32,6 @@ const Jam = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section13 />}
                             {item.component === "WHO DISCOVERED IT" && <Section14 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section13 />}
                         </div>
                     ))
                 ) : (

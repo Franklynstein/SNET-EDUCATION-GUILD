@@ -30,8 +30,6 @@ const Zarqa = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section25 />}
                             {item.component === "WHO DISCOVERED IT" && <Section26 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section25 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section26 />}
                             {item.component === "TOKENOMICS" && <Section27 />}
                         </div>
                     ))

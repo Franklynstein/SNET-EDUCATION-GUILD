@@ -32,7 +32,6 @@ const True = () => {
                             {item.component === "WHAT IS REJUVE.AI" && <Section49 />}
                             {item.component === "WHO DISCOVERED IT" && <Section50 />}
                             {item.component === "HOW DOES IT OPERATE" && <Section51 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section50 />}
                             {item.component === "TOKENOMICS" && <Section52 />}
                         </div>
                     ))

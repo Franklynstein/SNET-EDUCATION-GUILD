@@ -29,8 +29,6 @@ const Eco = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section4 />}
                             {item.component === "WHO DISCOVERED IT" && <Section5 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section5 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section5  />}
                         </div>
                     ))
                 ) : (

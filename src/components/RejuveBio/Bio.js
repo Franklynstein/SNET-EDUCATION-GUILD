@@ -28,8 +28,6 @@ const Bio = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section7 />}
                             {item.component === "WHO DISCOVERED IT" && <Section8 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section8 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section7 />}
                         </div>
                     ))
                 ) : (

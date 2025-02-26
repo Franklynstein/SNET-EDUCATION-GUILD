@@ -29,8 +29,6 @@ const Nunet = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section10 />}
                             {item.component === "WHO DISCOVERED IT" && <Section11 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section11 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section11 />}
                         </div>
                     ))
                 ) : (

@@ -32,7 +32,6 @@ const Amb = () => {
                             {item.component === "WHAT IS REJUVE.AI" && <Section44 />}
                             {item.component === "WHO DISCOVERED IT" && <Section45 />}
                             {item.component === "HOW DOES IT OPERATE" && <Section46 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section45 />}
                             {item.component === "TOKENOMICS" && <Section47 />}
                         </div>
                     ))

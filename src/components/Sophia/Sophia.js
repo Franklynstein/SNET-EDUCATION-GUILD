@@ -29,9 +29,6 @@ const Sophia = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section22 />}
                             {item.component === "WHO DISCOVERED IT" && <Section23 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section22 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section23 />}
-                            {item.component === "TOKENOMICS" && <Section22 />}
                         </div>
                     ))
                 ) : (

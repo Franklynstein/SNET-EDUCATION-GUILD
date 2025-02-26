@@ -29,9 +29,6 @@ const Cogito = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section19 />}
                             {item.component === "WHO DISCOVERED IT" && <Section20 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section19 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section20 />}
-                            {item.component === "TOKENOMICS" && <Section19 />}
                         </div>
                     ))
                 ) : (

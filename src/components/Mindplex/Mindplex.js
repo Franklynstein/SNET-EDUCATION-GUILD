@@ -32,7 +32,6 @@ const Mindplex = () => {
                             {item.component === "WHAT IS REJUVE.AI" && <Section39 />}
                             {item.component === "WHO DISCOVERED IT" && <Section40 />}
                             {item.component === "HOW DOES IT OPERATE" && <Section41 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section40 />}
                             {item.component === "TOKENOMICS" && <Section42 />}
                         </div>
                     ))

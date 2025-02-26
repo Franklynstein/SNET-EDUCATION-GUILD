@@ -32,7 +32,6 @@ const Awake = () => {
                             {item.component === "WHAT IS REJUVE.AI" && <Section64 />}
                             {item.component === "WHO DISCOVERED IT" && <Section65 />}
                             {item.component === "HOW DOES IT OPERATE" && <Section66 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section65 />}
                             {item.component === "TOKENOMICS" && <Section67 />}
                         </div>
                     ))

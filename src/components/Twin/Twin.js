@@ -32,7 +32,6 @@ const Twin = () => {
                             {item.component === "WHAT IS REJUVE.AI" && <Section54 />}
                             {item.component === "WHO DISCOVERED IT" && <Section55 />}
                             {item.component === "HOW DOES IT OPERATE" && <Section56 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section55 />}
                             {item.component === "TOKENOMICS" && <Section57 />}
                         </div>
                     ))

@@ -32,7 +32,6 @@ const Hyper = () => {
                             {item.component === "WHAT IS REJUVE.AI" && <Section59 />}
                             {item.component === "WHO DISCOVERED IT" && <Section60 />}
                             {item.component === "HOW DOES IT OPERATE" && <Section61 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section60 />}
                             {item.component === "TOKENOMICS" && <Section62 />}
                         </div>
                     ))

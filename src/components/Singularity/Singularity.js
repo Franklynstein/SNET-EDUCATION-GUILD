@@ -30,8 +30,6 @@ const Singularity = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section29 />}
                             {item.component === "WHO DISCOVERED IT" && <Section30 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section29 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section30 />}
                             {item.component === "TOKENOMICS" && <Section31 />}
                         </div>
                     ))

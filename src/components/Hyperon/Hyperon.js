@@ -28,8 +28,6 @@ const Hyperon = () => {
                         <div key={index} id={item.path.replace(/\s+/g, "")}>
                             {item.component === "WHAT IS REJUVE.AI" && <Section16 />}
                             {item.component === "WHO DISCOVERED IT" && <Section17 />}
-                            {item.component === "HOW DOES IT OPERATE" && <Section16 />}
-                            {item.component === "WHEN REJUVEAI ANNOUNCED" && <Section17 />}
                         </div>
                     ))
                 ) : (
