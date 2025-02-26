@@ -13,8 +13,8 @@ const Sophia = () => {
     const navigation = [
       { path: "WHAT IS SOPHIA VERSE?", component: "WHAT IS REJUVE.AI" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
-      { path: "WHY SOPHIA VERSE?", component: "HOW DOES IT OPERATE" },
       { path: "WHEN WAS SOPHIA VERSE ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
+      { path: "WHY SOPHIA VERSE?", component: "WHY" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -34,10 +34,10 @@ const Sophia = () => {
                 ) : (
                     <>
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section22 />}
-                        {selectedComponent === "WHO DISCOVERED IT" && <Section23 />}
-                        {selectedComponent === "HOW DOES IT OPERATE" && <Section22 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section23 />}
-                        {selectedComponent === "TOKENOMICS" && <Section22 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section22 />}
+                        {selectedComponent === "WHY" && <Section23 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section22 />}
+                        {selectedComponent === "TOKENOMICS" && <Section23 />}
                     </>
                 )}
         </div>

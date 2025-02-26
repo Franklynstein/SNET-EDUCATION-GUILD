@@ -14,9 +14,9 @@ const Hyper = () => {
 
     const navigation = [
       { path: "WHAT IS HYPERCYCLE?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHEN WAS HYPERCYCLE ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "WHEN WAS HYPERCYCLE ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -40,7 +40,7 @@ const Hyper = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section59 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section60 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section61 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section60 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section59 />}
                         {selectedComponent === "TOKENOMICS" && <Section62 />}
                     </>
                 )}

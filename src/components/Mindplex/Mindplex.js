@@ -14,9 +14,9 @@ const Mindplex = () => {
 
     const navigation = [
       { path: "WHAT IS MINDPLEX?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHEN WAS MINDPLEX ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "WHEN WAS MINDPLEX ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -40,7 +40,7 @@ const Mindplex = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section39 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section40 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section41 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section40 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section39 />}
                         {selectedComponent === "TOKENOMICS" && <Section42 />}
                     </>
                 )}

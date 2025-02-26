@@ -15,6 +15,7 @@ const Eco = () => {
       { path: "WHO DISCOVERED IT", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE", component: "HOW DOES IT OPERATE" },
       { path: "WHEN REJUVEAI ANNOUNCED", component: "WHEN REJUVEAI ANNOUNCED" },
+      { path: "TOKENOMICS", component: "TOKENOMICS" },
       // Add other sections here
     ];
 
@@ -34,9 +35,10 @@ const Eco = () => {
                 ) : (
                     <>
                       {selectedComponent === "WHAT IS REJUVE.AI" && <Section4 />}
-                      {selectedComponent === "WHO DISCOVERED IT" && <Section5 />}
-                      {selectedComponent === "HOW DOES IT OPERATE" && <Section5 />}
+                      {selectedComponent === "WHO DISCOVERED IT" && <Section4 />}
+                      {selectedComponent === "HOW DOES IT OPERATE" && <Section4 />}
                       {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section5 />}
+                      {selectedComponent === "TOKENOMICS" && <Section5 />}
                     </>
                 )}
         </div>

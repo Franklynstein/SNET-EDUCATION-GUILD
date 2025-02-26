@@ -35,7 +35,7 @@ const Bio = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section7 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section8 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section8 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section7 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section8 />}
                     </>
                 )}
         </div>

@@ -15,9 +15,9 @@ const Snet = () => {
 
     const navigation = [
       { path: "WHAT IS SINGULARITYNET?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHEN WAS SINGULARITYNET ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "WHEN WAS SINGULARITYNET ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -42,7 +42,7 @@ const Snet = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section33 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section34 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section35 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section36 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section33 />}
                         {selectedComponent === "TOKENOMICS" && <Section37 />}
                     </>
                 )}

@@ -14,9 +14,9 @@ const Awake = () => {
 
     const navigation = [
       { path: "WHAT IS AWAKENING HEALTH?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHEN WAS AWAKENING HEALTH ANNOUNCED?", component: "WHEN WAS AWAKENING HEALTH ANNOUNCED" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "WHEN WAS AWAKENING HEALTH ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -40,7 +40,7 @@ const Awake = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section64 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section65 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section66 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section65 />}
+                        {selectedComponent === "WHEN WAS AWAKENING HEALTH ANNOUNCED" && <Section64 />}
                         {selectedComponent === "TOKENOMICS" && <Section67 />}
                     </>
                 )}

@@ -11,10 +11,10 @@ const Jam = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     const navigation = [
-        { path: "WHAT IS NUNET?", component: "WHAT IS REJUVE.AI" },
+        { path: "WHAT IS JAM GALAXY?", component: "WHAT IS REJUVE.AI" },
         { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
-        { path: "WHEN WAS JAM GALAXY DISCOVERED?", component: "WHO DISCOVERED IT" },
-        { path: "TOKENOMICS", component: "HOW DOES IT OPERATE" },
+        { path: "WHEN WAS JAM GALAXY DISCOVERED?", component: "WHEN WAS IT DISCOVERED" },
+        { path: "TOKENOMICS", component: "TOKENOMICS" },
     ];
 
     useEffect(() => {
@@ -37,8 +37,9 @@ const Jam = () => {
                 ) : (
                     <>
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section13 />}
-                        {selectedComponent === "WHO DISCOVERED IT" && <Section14 />}
-                        {selectedComponent === "HOW DOES IT OPERATE" && <Section13 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section13 />}
+                        {selectedComponent === "WHEN WAS IT DISCOVERED" && <Section14 />}
+                        {selectedComponent === "TOKENOMICS" && <Section14 />}
                     </>
                 )}
             </div>

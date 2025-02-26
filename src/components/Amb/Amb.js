@@ -13,10 +13,10 @@ const Amb = () => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
     const navigation = [
-      { path: "WHAT IS AMBASSADORS?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHAT IS AMBASSADORS?", component: "WHAT IS REJUVE.AI" }, 
+      { path: "HOW TO JOIN?", component: "HOW TO JOIN" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "HOW TO JOIN?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -40,7 +40,7 @@ const Amb = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section44 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section45 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section46 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section45 />}
+                        {selectedComponent === "HOW TO JOIN" && <Section44 />}
                         {selectedComponent === "TOKENOMICS" && <Section47 />}
                     </>
                 )}

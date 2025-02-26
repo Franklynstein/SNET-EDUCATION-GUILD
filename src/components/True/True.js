@@ -14,9 +14,9 @@ const True = () => {
 
     const navigation = [
       { path: "WHAT IS TRUEAGI?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHEN WAS TRUEAGI ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "WHEN WAS TRUEAGI ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -40,7 +40,7 @@ const True = () => {
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section49 />}
                         {selectedComponent === "WHO DISCOVERED IT" && <Section50 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section51 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section50 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section49 />}
                         {selectedComponent === "TOKENOMICS" && <Section52 />}
                     </>
                 )}

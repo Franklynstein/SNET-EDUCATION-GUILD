@@ -13,9 +13,9 @@ const Singularity = () => {
 
     const navigation = [
       { path: "WHAT IS SINGULARITYDAO?", component: "WHAT IS REJUVE.AI" },
+      { path: "WHEN WAS SINGULARITYDAO ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
       { path: "HOW DOES IT OPERATE?", component: "HOW DOES IT OPERATE" },
-      { path: "WHEN WAS SINGULARITYDAO ANNOUNCED?", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS?", component: "TOKENOMICS" },
       // Add other sections here
     ];
@@ -36,9 +36,9 @@ const Singularity = () => {
                 ) : (
                     <>
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section29 />}
-                        {selectedComponent === "WHO DISCOVERED IT" && <Section30 />}
-                        {selectedComponent === "HOW DOES IT OPERATE" && <Section29 />}
-                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section30 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section29 />}
+                        {selectedComponent === "HOW DOES IT OPERATE" && <Section30 />}
+                        {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section29 />}
                         {selectedComponent === "TOKENOMICS" && <Section31 />}
                     </>
                 )}

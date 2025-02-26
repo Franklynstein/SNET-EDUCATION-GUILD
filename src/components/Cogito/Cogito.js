@@ -34,10 +34,10 @@ const Cogito = () => {
                 ) : (
                     <>
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section19 />}
-                        {selectedComponent === "WHO DISCOVERED IT" && <Section20 />}
-                        {selectedComponent === "HOW DOES IT OPERATE" && <Section19 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section19 />}
+                        {selectedComponent === "HOW DOES IT OPERATE" && <Section20 />}
                         {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section20 />}
-                        {selectedComponent === "TOKENOMICS" && <Section19 />}
+                        {selectedComponent === "TOKENOMICS" && <Section20 />}
                     </>
                 )}
         </div>

@@ -34,7 +34,7 @@ const Nunet = () => {
                 ) : (
                     <>
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section10 />}
-                        {selectedComponent === "WHO DISCOVERED IT" && <Section11 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section10 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section11 />}
                         {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section11 />}
                     </>

@@ -13,7 +13,7 @@ const Hyperon = () => {
     const navigation = [
       { path: "WHAT IS OPENCOG HYPERON", component: "WHAT IS REJUVE.AI" },
       { path: "WHO IS DISCOVERED?", component: "WHO DISCOVERED IT" },
-      { path: "WHEN WAS OPENCOG HYPERON DISCOVERED", component: "HOW DOES IT OPERATE" },
+      { path: "WHEN WAS OPENCOG HYPERON DISCOVERED", component: "WHEN REJUVEAI ANNOUNCED" },
       { path: "TOKENOMICS", component: "WHEN REJUVEAI ANNOUNCED" },
       // Add other sections here
     ];
@@ -33,7 +33,7 @@ const Hyperon = () => {
                 ) : (
                     <>
                         {selectedComponent === "WHAT IS REJUVE.AI" && <Section16 />}
-                        {selectedComponent === "WHO DISCOVERED IT" && <Section17 />}
+                        {selectedComponent === "WHO DISCOVERED IT" && <Section16 />}
                         {selectedComponent === "HOW DOES IT OPERATE" && <Section16 />}
                         {selectedComponent === "WHEN REJUVEAI ANNOUNCED" && <Section17 />}
                     </>
