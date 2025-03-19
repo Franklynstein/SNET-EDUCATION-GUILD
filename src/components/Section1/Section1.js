@@ -22,7 +22,7 @@ function Section1() {
         <a href="/" className="a-top-right">
           <div className="item-top-right item-width"></div>
         </a>
-        <a href="/" className="a-right">
+        <a href="/ccp" className="a-right">
           <div className="item-right item-width"></div>
         </a>
         <a href="/" className="a-left">

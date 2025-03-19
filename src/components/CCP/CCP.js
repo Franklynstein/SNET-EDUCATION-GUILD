@@ -64,9 +64,9 @@ const CCP = () => {
     setSortConfig({ key, direction });
   };
   
-  // Apply sort to data
+  // Apply sort to data and limit to first 73 entries
   const sortedData = React.useMemo(() => {
-    if (!sortConfig.key) return data;
+    if (!sortConfig.key) return data.slice(0, 73); // Limit to first 73 entries
     
     return [...data].sort((a, b) => {
       if (a[sortConfig.key] < b[sortConfig.key]) {
@@ -76,7 +76,7 @@ const CCP = () => {
         return sortConfig.direction === 'ascending' ? 1 : -1;
       }
       return 0;
-    });
+    }).slice(0, 73); // Limit to first 73 entries after sorting
   }, [data, sortConfig]);
 
   return (
