@@ -37,8 +37,8 @@ function Header() {
             <a href="/">
               <li>Home</li>
             </a>
-            <a href="/">
-              <li>Project</li>
+            <a href="/ccp">
+              <li>CCP</li>
             </a>
             <li className="ecosystem-link" onClick={toggleEcosystem}>
               <li>Ecosystem</li>
@@ -110,7 +110,7 @@ function Header() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <a href="/ccp">CCP</a>
             </li>
             <li className="projects-menu">
               <a href="/">Ecosystem</a>

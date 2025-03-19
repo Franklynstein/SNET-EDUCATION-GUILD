@@ -92,7 +92,7 @@ import True from "./components/True/True";
 import Twin from "./components/Twin/Twin";
 import Hyper from "./components/Hyper/Hyper";
 import Awake from "./components/Awake/Awake";
-
+import CCP from "./components/CCP/CCP";
 function App() {
   return (
     <BrowserRouter>
@@ -177,6 +177,7 @@ function App() {
         <Route path="/programs-workgroups-3" element={<Section73 />} />
         <Route path="/programs-faqs" element={<Section74 />} />
         <Route path="/programs-rewards" element={<Section75 />} />
+        <Route path="/ccp" element={<CCP />} />
       </Routes>
     </BrowserRouter>
   );
