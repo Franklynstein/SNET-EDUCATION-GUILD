@@ -2,6 +2,7 @@ import "../main.css";
 import "./Section1.css";
 import navigatorImage from "../assets/img/navigator-image.png";
 import { useEffect } from "react";
+import video from "../../video/bg.mp4";
 
 function Section1() {
   useEffect(() => {
@@ -14,6 +15,10 @@ function Section1() {
   }, []);
   return (
     <section className="main-section">
+      <video className="bg-video-main" autoPlay loop muted>
+        <source src={video} type="video/mp4" />
+      </video>
+      <div className="bg-overlay"></div>
       <div className="container">
         <h1>SingularityNET</h1>
         <h2>Education Project</h2>
