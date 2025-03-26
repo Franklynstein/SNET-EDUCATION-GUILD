@@ -147,6 +147,8 @@
     align-items: center;
     /* position: fixed; */
     /* width: 95vw; */
+    margin-left: 10%;
+    
   }
 
   .page-header nav {
