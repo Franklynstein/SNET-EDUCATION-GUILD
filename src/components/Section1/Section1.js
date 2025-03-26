@@ -21,7 +21,7 @@ function Section1() {
       <div className="bg-overlay"></div>
       <div className="container">
         <h1>SingularityNET</h1>
-        <h2>Education Project</h2>
+        <h2>Education Guild</h2>
       </div>
       <div className="items">
         <a href="/" className="a-top-right">
